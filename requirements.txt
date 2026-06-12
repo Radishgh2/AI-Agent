@@ -1,0 +1,12 @@
+langchain
+langchain-openai
+langchain-community
+chromadb
+fastapi
+uvicorn
+pydantic
+python-multipart
+jinja2
+pypdf
+litellm
+google-cloud-aiplatform

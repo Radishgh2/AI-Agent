@@ -1,0 +1,38 @@
+version: '3.8'
+
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      OPENAI_API_BASE: "http://host.docker.internal:4000/v1" # For Docker Desktop, or use host's IP
+      OPENAI_API_KEY: "sk-dummy"
+      OPENAI_MODEL_NAME: "gemini-2.5-flash"
+    volumes:
+      - ./chroma_db:/app/chroma_db # 持久化 ChromaDB 数据
+    depends_on:
+      - chromadb
+
+  # 简单的ChromaDB服务，如果ChromaDB作为独立服务运行
+  # 注意：langchain_community.vectorstores.Chroma 默认是嵌入式数据库
+  # 如果需要独立的服务，需要启动一个ChromaDB服务器，这里提供一个占位符配置
+  # For a production setup, you might use a dedicated ChromaDB Docker image
+  # or a separate service for Chroma.
+  # For this project, ChromaDB will run embedded within the API service,
+  # but we keep this service definition as a placeholder if you wish to externalize it.
+  # If using embedded ChromaDB, this service is not strictly needed, 
+  # but helps illustrate a multi-service architecture.
+  chromadb:
+    image: ghcr.io/chroma-ai/chroma:latest
+    ports:
+      - "8001:8000" # ChromaDB默认端口，这里映射到8001以避免与FastAPI冲突
+    volumes:
+      - ./chroma_data:/chroma/data # 持久化ChromaDB数据
+    command: ["uvicorn", "chroma.server.fastapi:app", "--host", "0.0.0.0", "--port", "8000"]
+
+networks:
+  default:
+    driver: bridge

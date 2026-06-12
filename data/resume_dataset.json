@@ -1,0 +1,177 @@
+
+[
+  {
+    "name": "张三",
+    "education": [
+      {"degree": "硕士", "major": "计算机科学", "university": "清华大学", "duration": "2021-2024"},
+      {"degree": "学士", "major": "软件工程", "university": "北京大学", "duration": "2017-2021"}
+    ],
+    "skills": [
+      "Python", "Java", "C++", "PyTorch", "TensorFlow", "NLP", "CV", "推荐系统", "机器学习", "Docker", "Kubernetes"
+    ],
+    "experience": [
+      {"company": "字节跳动", "title": "高级AI工程师", "duration": "2024-至今", "description": "负责抖音推荐系统算法研发，优化模型，提升用户体验和CTR。"},
+      {"company": "百度", "title": "AI算法工程师", "duration": "2021-2024", "description": "参与搜索NLP核心技术研发，包括文本匹配和信息抽取。"}
+    ],
+    "projects": [
+      {"name": "大规模推荐系统优化", "description": "基于深度学习和强化学习，实现推荐系统核心算法优化，提升CTR 15%。"},
+      {"name": "中文语义理解模型", "description": "研发基于Transformer的中文语义理解模型，应用于搜索和广告。"}
+    ]
+  },
+  {
+    "name": "李四",
+    "education": [
+      {"degree": "学士", "major": "软件工程", "university": "浙江大学", "duration": "2018-2022"}
+    ],
+    "skills": [
+      "Java", "Spring Boot", "MySQL", "Redis", "Kafka", "微服务", "高并发", "分布式", "Linux"
+    ],
+    "experience": [
+      {"company": "阿里巴巴", "title": "Java后端开发工程师", "duration": "2022-至今", "description": "负责电商平台核心交易系统后端开发，支撑双11大促高并发。"},
+      {"company": "蚂蚁金服", "title": "后端开发实习生", "duration": "2021-2022", "description": "参与支付系统接口开发和性能优化。"}
+    ],
+    "projects": [
+      {"name": "电商交易平台", "description": "负责订单、库存、支付等模块开发，保证系统高可用和高并发。"},
+      {"name": "分布式链路追踪系统", "description": "设计并实现基于OpenTracing的分布式链路追踪系统，提升故障排查效率。"}
+    ]
+  },
+  {
+    "name": "王五",
+    "education": [
+      {"degree": "硕士", "major": "电子工程", "university": "上海交通大学", "duration": "2022-2025"},
+      {"degree": "学士", "major": "自动化", "university": "华中科技大学", "duration": "2018-2022"}
+    ],
+    "skills": [
+      "Python", "数据分析", "SQL", "Excel", "PPT", "市场分析", "用户研究", "产品规划", "Axure", "Sketch"
+    ],
+    "experience": [
+      {"company": "腾讯科技", "title": "产品经理", "duration": "2025-至今", "description": "负责微信小程序产品规划和迭代，提升用户活跃度和商业化变现。"},
+      {"company": "美团", "title": "产品实习生", "duration": "2023-2024", "description": "参与到店业务产品需求分析和功能设计，协助PM推进项目。"}
+    ],
+    "projects": [
+      {"name": "智能推荐小程序", "description": "负责小程序需求分析、原型设计、功能开发协调和上线，DAU提升20%。"},
+      {"name": "用户画像分析系统", "description": "基于用户行为数据，构建用户画像标签体系，为产品决策提供数据支持。"}
+    ]
+  },
+  {
+    "name": "赵六",
+    "education": [
+      {"degree": "学士", "major": "计算机科学与技术", "university": "武汉大学", "duration": "2019-2023"}
+    ],
+    "skills": [
+      "Python", "Go", "Docker", "Kubernetes", "微服务", "RPC", "gRPC", "Kafka", "PostgreSQL", "Redis"
+    ],
+    "experience": [
+      {"company": "快手", "title": "Go后端工程师", "duration": "2023-至今", "description": "负责短视频平台用户管理和内容分发系统开发，优化服务性能。"},
+      {"company": "拼多多", "title": "后端开发实习生", "duration": "2022-2023", "description": "参与秒杀系统后端服务开发，提升系统稳定性。"}
+    ],
+    "projects": [
+      {"name": "短视频内容分发系统", "description": "设计并实现基于Go语言的微服务架构，支撑日活千万级用户。"},
+      {"name": "高性能消息队列中间件", "description": "开发基于Kafka的高性能消息队列，用于异步任务处理和日志收集。"}
+    ]
+  },
+  {
+    "name": "钱七",
+    "education": [
+      {"degree": "硕士", "major": "人工智能", "university": "中国科学院大学", "duration": "2020-2023"}
+    ],
+    "skills": [
+      "Python", "PyTorch", "NLP", "LLM", "文本生成", "Transformer", "LangChain", "Hugging Face", "Linux"
+    ],
+    "experience": [
+      {"company": "商汤科技", "title": "NLP算法研究员", "duration": "2023-至今", "description": "从事大模型文本生成和对话系统的研究与开发。"},
+      {"company": "旷视科技", "title": "AI算法实习生", "duration": "2022-2023", "description": "参与CV领域目标检测算法研究，优化模型性能。"}
+    ],
+    "projects": [
+      {"name": "多模态大模型预训练", "description": "基于Diffusion模型实现文本到图像生成，应用于内容创作。"},
+      {"name": "智能对话机器人", "description": "使用LangChain构建智能对话机器人，支持多领域知识问答。"}
+    ]
+  },
+  {
+    "name": "孙八",
+    "education": [
+      {"degree": "学士", "major": "信息管理与信息系统", "university": "中山大学", "duration": "2017-2021"}
+    ],
+    "skills": [
+      "产品原型", "Axure", "Sketch", "PRD", "用户访谈", "数据分析", "SQL", "用户增长", "AB测试"
+    ],
+    "experience": [
+      {"company": "美团", "title": "产品经理", "duration": "2021-至今", "description": "负责外卖平台的用户端产品设计，包括下单流程、履约环节优化。"},
+      {"company": "饿了么", "title": "产品运营实习生", "duration": "2020-2021", "description": "参与用户运营活动策划和数据分析。"}
+    ],
+    "projects": [
+      {"name": "外卖下单转化率优化", "description": "通过AB测试验证新设计方案，使下单转化率提升8%。"},
+      {"name": "用户激励体系设计", "description": "设计并上线积分、会员体系，提升用户留存和复购。"}
+    ]
+  },
+  {
+    "name": "周九",
+    "education": [
+      {"degree": "硕士", "major": "软件工程", "university": "华中科技大学", "duration": "2022-2025"},
+      {"degree": "学士", "major": "计算机科学与技术", "university": "厦门大学", "duration": "2018-2022"}
+    ],
+    "skills": [
+      "C++", "Linux", "多线程", "网络编程", "Redis", "MySQL", "游戏开发", "高性能服务器"
+    ],
+    "experience": [
+      {"company": "网易游戏", "title": "C++游戏服务器开发", "duration": "2025-至今", "description": "负责大型多人在线游戏后端服务器开发，优化游戏逻辑和网络通信。"},
+      {"company": "腾讯游戏", "title": "后端开发实习生", "duration": "2023-2024", "description": "参与手游服务器模块开发，实现新功能。"}
+    ],
+    "projects": [
+      {"name": "MMORPG游戏服务器", "description": "从零开始搭建基于C++的MMORPG游戏服务器，支持高并发玩家在线。"},
+      {"name": "实时PVP竞技系统", "description": "设计并实现实时PVP竞技系统的匹配、结算和排行榜功能。"}
+    ]
+  },
+  {
+    "name": "吴十",
+    "education": [
+      {"degree": "学士", "major": "经济学", "university": "上海财经大学", "duration": "2018-2022"}
+    ],
+    "skills": [
+      "市场调研", "用户画像", "竞品分析", "商业分析", "数据分析", "SQL", "Tableau", "项目管理", "沟通协调"
+    ],
+    "experience": [
+      {"company": "拼多多", "title": "产品经理", "duration": "2022-至今", "description": "负责社交电商产品功能设计和迭代，通过AB测试提升用户转化率。"},
+      {"company": "京东", "title": "产品运营实习生", "duration": "2021-2022", "description": "参与电商促销活动策划，分析活动效果。"}
+    ],
+    "projects": [
+      {"name": "拼团玩法优化", "description": "设计并上线新的拼团策略，GMV提升10%。"},
+      {"name": "用户裂变增长方案", "description": "策划并推广用户裂变活动，用户增长20%。"}
+    ]
+  },
+  {
+    "name": "郑十一",
+    "education": [
+      {"degree": "硕士", "major": "人工智能", "university": "卡内基梅隆大学", "duration": "2020-2022"},
+      {"degree": "学士", "major": "计算机科学", "university": "斯坦福大学", "duration": "2016-2020"}
+    ],
+    "skills": [
+      "Python", "C++", "PyTorch", "TensorFlow", "强化学习", "机器人", "自动驾驶", "ROS", "Gazebo", "高性能计算"
+    ],
+    "experience": [
+      {"company": "特斯拉", "title": "资深AI工程师", "duration": "2022-至今", "description": "负责自动驾驶决策与控制算法的研发，优化车辆感知与路径规划。"},
+      {"company": "Google Brain", "title": "研究员", "duration": "2020-2022", "description": "从事强化学习在机器人控制领域的应用研究，发表多篇顶会论文。"}
+    ],
+    "projects": [
+      {"name": "端到端自动驾驶系统", "description": "设计并实现基于深度强化学习的端到端自动驾驶系统，在仿真环境中达到L4级别。"},
+      {"name": "多机器人协同控制", "description": "研发多机器人协同路径规划和任务分配算法，应用于仓储物流。"}
+    ]
+  },
+  {
+    "name": "冯十二",
+    "education": [
+      {"degree": "学士", "major": "市场营销", "university": "对外经济贸易大学", "duration": "2019-2023"}
+    ],
+    "skills": [
+      "市场策划", "品牌管理", "公关传播", "活动执行", "内容运营", "用户分析", "社交媒体营销", "数据报告"
+    ],
+    "experience": [
+      {"company": "小红书", "title": "产品运营经理", "duration": "2023-至今", "description": "负责社区内容生态的运营策略制定和执行，提升用户参与度和内容质量。"},
+      {"company": "完美日记", "title": "市场专员", "duration": "2021-2023", "description": "参与品牌推广活动策划和社交媒体内容创作。"}
+    ],
+    "projects": [
+      {"name": "KOC/KOL内容营销策略", "description": "搭建小红书KOC/KOL合作体系，推动优质内容产出，ROI提升30%。"},
+      {"name": "用户活跃度提升计划", "description": "通过线上活动和社群运营，使平台月活跃用户增长15%。"}
+    ]
+  }
+]

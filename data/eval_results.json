@@ -1,0 +1,2553 @@
+{
+  "analyze_jd_evaluation": {
+    "overall_accuracy": 100.0,
+    "field_accuracies": {
+      "company_name": 100.0,
+      "job_title": 100.0,
+      "required_skills": 100.0,
+      "experience_level": 100.0
+    },
+    "average_response_time_seconds": 7.075364828109741,
+    "total_jds_evaluated": 30,
+    "detailed_results": [
+      {
+        "jd_id": 0,
+        "jd_text": "公司: 字节跳动\n职位: 高级AI工程师 - 推荐系统\n描述: 负责字节跳动核心产品（如抖音、头条）推荐系统的算法研发、优化和落地。利用深度学习、强化学习等技术提升推荐效率和用户体验。\n要求: 计算机科学或相关领域硕士及以上学历；5年以上推荐系统或机器学习算法研发经验；精通Python，熟悉PyTorch/TensorFlow；具备大规模数据处理和分布式系统经验。",
+        "extracted_data": {
+          "company_name": "字节跳动",
+          "job_title": "高级AI工程师 - 推荐系统",
+          "required_skills": [
+            "推荐系统",
+            "深度学习",
+            "强化学习",
+            "机器学习算法",
+            "Python",
+            "PyTorch",
+            "TensorFlow",
+            "大规模数据处理",
+            "分布式系统"
+          ],
+          "experience_level": "5年以上",
+          "salary_range": "不详",
+          "location": "不详",
+          "education_requirements": "硕士及以上",
+          "responsibilities": [
+            "负责字节跳动核心产品（如抖音、头条）推荐系统的算法研发、优化和落地。",
+            "利用深度学习、强化学习等技术提升推荐效率和用户体验。"
+          ],
+          "qualifications": [
+            "计算机科学或相关领域硕士及以上学历",
+            "5年以上推荐系统或机器学习算法研发经验",
+            "精通Python，熟悉PyTorch/TensorFlow",
+            "具备大规模数据处理和分布式系统经验"
+          ]
+        },
+        "time_taken": 7.4879150390625,
+        "is_accurate": true
+      },
+      {
+        "jd_id": 1,
+        "jd_text": "公司: 腾讯科技\n职位: 资深机器学习算法工程师 - 广告平台\n描述: 参与腾讯广告平台的机器学习算法设计与实现，包括点击率预估、转化率优化、受众定向等。要求对模型性能和业务增长负责。\n要求: 博士学位或8年以上相关经验；熟悉广告投放系统；精通C++/Python；对因果推断、联邦学习有深入研究者优先。",
+        "extracted_data": {
+          "company_name": "腾讯科技",
+          "job_title": "资深机器学习算法工程师 - 广告平台",
+          "required_skills": [
+            "机器学习",
+            "点击率预估",
+            "转化率优化",
+            "受众定向",
+            "广告投放系统",
+            "C++",
+            "Python",
+            "因果推断",
+            "联邦学习"
+          ],
+          "experience_level": "8年以上",
+          "salary_range": "不详",
+          "location": "不详",
+          "education_requirements": "博士学位",
+          "responsibilities": [
+            "参与腾讯广告平台的机器学习算法设计与实现，包括点击率预估、转化率优化、受众定向等",
+            "对模型性能和业务增长负责"
+          ],
+          "qualifications": [
+            "博士学位或8年以上相关经验",
+            "熟悉广告投放系统",
+            "精通C++/Python",
+            "对因果推断、联邦学习有深入研究者优先"
+          ]
+        },
+        "time_taken": 5.652252912521362,
+        "is_accurate": true
+      },
+      {
+        "jd_id": 2,
+        "jd_text": "公司: 百度\n职位: NLP算法工程师 - 搜索\n描述: 负责百度搜索核心NLP技术的研发，包括语义理解、文本匹配、信息抽取等。持续提升搜索结果的相关性和准确性。\n要求: 计算机科学硕士；3年以上NLP算法经验；熟悉Transformer、BERT等模型；有搜索引擎相关经验者优先。",
+        "extracted_data": {
+          "company_name": "百度",
+          "job_title": "NLP算法工程师 - 搜索",
+          "required_skills": [
+            "NLP",
+            "语义理解",
+            "文本匹配",
+            "信息抽取",
+            "Transformer",
+            "BERT",
+            "搜索引擎"
+          ],
+          "experience_level": "3年以上",
+          "salary_range": null,
+          "location": null,
+          "education_requirements": "计算机科学硕士",
+          "responsibilities": [
+            "负责百度搜索核心NLP技术的研发，包括语义理解、文本匹配、信息抽取等。",
+            "持续提升搜索结果的相关性和准确性。"
+          ],
+          "qualifications": [
+            "计算机科学硕士",
+            "3年以上NLP算法经验",
+            "熟悉Transformer、BERT等模型",
+            "有搜索引擎相关经验者优先"
+          ]
+        },
+        "time_taken": 4.91471004486084,
+        "is_accurate": true
+      },
+      {
+        "jd_id": 3,
+        "jd_text": "公司: 华为\n职位: AI芯片架构师\n描述: 负责AI芯片的架构设计与性能优化，包括神经网络处理器（NPU）指令集、微架构等。支持多种AI模型在芯片上的高效运行。\n要求: 微电子、计算机体系结构等相关专业博士学历；10年以上AI芯片设计经验；精通至少一种深度学习框架。",
+        "extracted_data": {
+          "company_name": "华为",
+          "job_title": "AI芯片架构师",
+          "required_skills": [
+            "AI芯片架构设计",
+            "性能优化",
+            "神经网络处理器（NPU）指令集",
+            "微架构",
+            "深度学习框架",
+            "微电子",
+            "计算机体系结构"
+          ],
+          "experience_level": "10年以上",
+          "salary_range": null,
+          "location": null,
+          "education_requirements": "博士",
+          "responsibilities": [
+            "负责AI芯片的架构设计与性能优化，包括神经网络处理器（NPU）指令集、微架构等。",
+            "支持多种AI模型在芯片上的高效运行。"
+          ],
+          "qualifications": [
+            "微电子、计算机体系结构等相关专业博士学历",
+            "10年以上AI芯片设计经验",
+            "精通至少一种深度学习框架"
+          ]
+        },
+        "time_taken": 6.448318004608154,
+        "is_accurate": true
+      },
+      {
+        "jd_id": 4,
+        "jd_text": "公司: 旷视科技\n职位: 高级CV算法工程师 - 自动驾驶\n描述: 参与自动驾驶感知模块的视觉算法研发，包括目标检测、跟踪、语义分割等。要求算法性能和实时性俱佳。\n要求: 计算机视觉或相关领域硕士；4年以上CV算法经验；熟悉OpenCV、PyTorch；有自动驾驶或机器人经验者优先。",
+        "extracted_data": {
+          "company_name": "旷视科技",
+          "job_title": "高级CV算法工程师 - 自动驾驶",
+          "required_skills": [
+            "计算机视觉",
+            "目标检测",
+            "跟踪",
+            "语义分割",
+            "OpenCV",
+            "PyTorch",
+            "自动驾驶",
+            "机器人"
+          ],
+          "experience_level": "4年以上",
+          "salary_range": null,
+          "location": null,
+          "education_requirements": "硕士",
+          "responsibilities": [
+            "参与自动驾驶感知模块的视觉算法研发，包括目标检测、跟踪、语义分割等。",
+            "确保算法性能和实时性俱佳。"
+          ],
+          "qualifications": [
+            "计算机视觉或相关领域硕士",
+            "4年以上CV算法经验",
+            "熟悉OpenCV、PyTorch",
+            "有自动驾驶或机器人经验者优先"
+          ]
+        },
+        "time_taken": 21.335489749908447,
+        "is_accurate": true
+      },
+      {
+        "jd_id": 5,
+        "jd_text": "公司: 商汤科技\n职位: 算法研究员 - 生成式AI\n描述: 从事前沿生成式AI模型（如GAN, Diffusion Models, LLM）的理论研究与应用探索。发表高水平论文，推动技术创新。\n要求: 博士学位；在顶级AI会议发表过论文；对生成式模型有深刻理解和实践经验；熟练使用PyTorch。",
+        "extracted_data": {
+          "company_name": "商汤科技",
+          "job_title": "算法研究员 - 生成式AI",
+          "required_skills": [
+            "GAN",
+            "Diffusion Models",
+            "LLM",
+            "PyTorch",
+            "生成式模型",
+            "AI理论研究",
+            "论文发表"
+          ],
+          "experience_level": "博士学位，有顶级AI会议论文发表经验",
+          "salary_range": null,
+          "location": null,
+          "education_requirements": "博士学位",
+          "responsibilities": [
+            "从事前沿生成式AI模型（如GAN, Diffusion Models, LLM）的理论研究与应用探索。",
+            "发表高水平论文，推动技术创新。"
+          ],
+          "qualifications": [
+            "博士学位",
+            "在顶级AI会议发表过论文",
+            "对生成式模型有深刻理解和实践经验",
+            "熟练使用PyTorch"
+          ]
+        },
+        "time_taken": 20.493278980255127,
+        "is_accurate": true
+      },
+      {
+        "jd_id": 6,
+        "jd_text": "公司: 美团\n职位: 高级算法工程师 - 推荐与搜索\n描述: 负责美团平台推荐与搜索的核心算法研发，包括用户行为预测、商品排序、查询理解等。提升用户体验和平台GMV。\n要求: 计算机相关专业硕士；5年以上互联网推荐/搜索算法经验；熟悉Linux环境开发；对大规模系统有优化经验。",
+        "extracted_data": {
+          "company_name": "美团",
+          "job_title": "高级算法工程师 - 推荐与搜索",
+          "required_skills": [
+            "推荐算法",
+            "搜索算法",
+            "用户行为预测",
+            "商品排序",
+            "查询理解",
+            "Linux环境开发",
+            "大规模系统优化"
+          ],
+          "experience_level": "5年以上",
+          "salary_range": null,
+          "location": null,
+          "education_requirements": "硕士",
+          "responsibilities": [
+            "负责美团平台推荐与搜索的核心算法研发，包括用户行为预测、商品排序、查询理解等。",
+            "提升用户体验和平台GMV。"
+          ],
+          "qualifications": [
+            "计算机相关专业硕士",
+            "5年以上互联网推荐/搜索算法经验",
+            "熟悉Linux环境开发",
+            "对大规模系统有优化经验"
+          ]
+        },
+        "time_taken": 4.25521993637085,
+        "is_accurate": true
+      },
+      {
+        "jd_id": 7,
+        "jd_text": "公司: 滴滴出行\n职位: 智能驾驶算法专家 - 决策规划\n描述: 负责智能驾驶决策规划算法的研发，包括行为预测、路径规划、控制策略等。确保行车安全性和舒适性。\n要求: 控制工程、机器人学等相关专业博士；8年以上智能驾驶或机器人决策规划经验；精通C++/Python。",
+        "extracted_data": {
+          "company_name": "滴滴出行",
+          "job_title": "智能驾驶算法专家 - 决策规划",
+          "required_skills": [
+            "C++",
+            "Python",
+            "智能驾驶决策规划",
+            "行为预测",
+            "路径规划",
+            "控制策略",
+            "控制工程",
+            "机器人学"
+          ],
+          "experience_level": "8年以上",
+          "salary_range": null,
+          "location": null,
+          "education_requirements": "控制工程、机器人学等相关专业博士",
+          "responsibilities": [
+            "负责智能驾驶决策规划算法的研发，包括行为预测、路径规划、控制策略等。",
+            "确保行车安全性和舒适性。"
+          ],
+          "qualifications": [
+            "控制工程、机器人学等相关专业博士",
+            "8年以上智能驾驶或机器人决策规划经验",
+            "精通C++/Python"
+          ]
+        },
+        "time_taken": 6.265722990036011,
+        "is_accurate": true
+      },
+      {
+        "jd_id": 8,
+        "jd_text": "公司: 小米\n职位: AIoT算法工程师 - 语音交互\n描述: 负责小米AIoT设备语音交互算法的研发，包括声学模型、语言模型、语音识别和语音合成等。提升用户交互体验。\n要求: 声学、信号处理或相关领域硕士；3年以上语音识别/合成经验；熟悉Kaldi/ESPnet；有嵌入式设备优化经验。",
+        "extracted_data": {
+          "company_name": "小米",
+          "job_title": "AIoT算法工程师 - 语音交互",
+          "required_skills": [
+            "语音交互算法",
+            "声学模型",
+            "语言模型",
+            "语音识别",
+            "语音合成",
+            "声学",
+            "信号处理",
+            "Kaldi",
+            "ESPnet",
+            "嵌入式设备优化"
+          ],
+          "experience_level": "3年以上",
+          "salary_range": "不详",
+          "location": "不详",
+          "education_requirements": "硕士",
+          "responsibilities": [
+            "负责小米AIoT设备语音交互算法的研发，包括声学模型、语言模型、语音识别和语音合成等。",
+            "提升用户交互体验。"
+          ],
+          "qualifications": [
+            "声学、信号处理或相关领域硕士",
+            "3年以上语音识别/合成经验",
+            "熟悉Kaldi/ESPnet",
+            "有嵌入式设备优化经验"
+          ]
+        },
+        "time_taken": 4.9817609786987305,
+        "is_accurate": true
+      },
+      {
+        "jd_id": 9,
+        "jd_text": "公司: 阿里巴巴\n职位: 多模态AI研究员\n描述: 研究多模态大模型在电商领域的应用，融合图像、文本、视频等信息，提升商品理解、内容生成和智能导购能力。\n要求: 计算机相关专业博士；在多模态AI领域有深厚研究积累；熟悉多模态预训练模型；熟练使用PyTorch。",
+        "extracted_data": {
+          "company_name": "阿里巴巴",
+          "job_title": "多模态AI研究员",
+          "required_skills": [
+            "多模态大模型",
+            "图像处理",
+            "文本处理",
+            "视频处理",
+            "多模态预训练模型",
+            "PyTorch"
+          ],
+          "experience_level": "深厚研究积累",
+          "salary_range": null,
+          "location": null,
+          "education_requirements": "计算机相关专业博士",
+          "responsibilities": [
+            "研究多模态大模型在电商领域的应用",
+            "融合图像、文本、视频等信息",
+            "提升商品理解、内容生成和智能导购能力"
+          ],
+          "qualifications": [
+            "计算机相关专业博士",
+            "在多模态AI领域有深厚研究积累",
+            "熟悉多模态预训练模型",
+            "熟练使用PyTorch"
+          ]
+        },
+        "time_taken": 5.565732955932617,
+        "is_accurate": true
+      },
+      {
+        "jd_id": 10,
+        "jd_text": "公司: 京东\n职位: Java后端开发工程师\n描述: 负责京东电商平台核心业务系统的后端开发与维护，包括订单、库存、支付等模块。保证系统的高并发、高可用。\n要求: 计算机或相关专业本科及以上学历；3年以上Java后端开发经验；熟悉Spring Cloud、MySQL、Redis；有高并发系统设计经验。",
+        "extracted_data": {
+          "company_name": "京东",
+          "job_title": "Java后端开发工程师",
+          "required_skills": [
+            "Java",
+            "Spring Cloud",
+            "MySQL",
+            "Redis",
+            "高并发系统设计"
+          ],
+          "experience_level": "3年以上",
+          "salary_range": null,
+          "location": null,
+          "education_requirements": "计算机或相关专业本科及以上学历",
+          "responsibilities": [
+            "负责京东电商平台核心业务系统的后端开发与维护，包括订单、库存、支付等模块。",
+            "保证系统的高并发、高可用。"
+          ],
+          "qualifications": [
+            "计算机或相关专业本科及以上学历",
+            "3年以上Java后端开发经验",
+            "熟悉Spring Cloud、MySQL、Redis",
+            "有高并发系统设计经验"
+          ]
+        },
+        "time_taken": 7.1446168422698975,
+        "is_accurate": true
+      },
+      {
+        "jd_id": 11,
+        "jd_text": "公司: 饿了么\n职位: 高级Go后端工程师 - 履约平台\n描述: 负责饿了么履约平台的后端服务开发，包括订单调度、骑手管理、配送路径优化等。要求系统稳定性和扩展性。\n要求: 计算机相关专业本科；5年以上Go语言开发经验；熟悉微服务架构、Kubernetes；有餐饮外卖行业经验者优先。",
+        "extracted_data": {
+          "company_name": "饿了么",
+          "job_title": "高级Go后端工程师 - 履约平台",
+          "required_skills": [
+            "Go",
+            "微服务架构",
+            "Kubernetes"
+          ],
+          "experience_level": "5年以上",
+          "salary_range": null,
+          "location": null,
+          "education_requirements": "本科",
+          "responsibilities": [
+            "负责饿了么履约平台的后端服务开发，包括订单调度、骑手管理、配送路径优化等",
+            "保证系统稳定性和扩展性"
+          ],
+          "qualifications": [
+            "计算机相关专业本科",
+            "5年以上Go语言开发经验",
+            "熟悉微服务架构、Kubernetes",
+            "有餐饮外卖行业经验者优先"
+          ]
+        },
+        "time_taken": 4.225287914276123,
+        "is_accurate": true
+      },
+      {
+        "jd_id": 12,
+        "jd_text": "公司: 网易\n职位: C++游戏服务器开发工程师\n描述: 负责网易大型多人在线游戏的后端服务器开发，包括游戏逻辑、网络通信、数据库交互等。要求高性能和低延迟。\n要求: 计算机相关专业本科；3年以上C++游戏服务器开发经验；熟悉TCP/IP协议、多线程编程；有高并发、分布式游戏系统经验。",
+        "extracted_data": {
+          "company_name": "网易",
+          "job_title": "C++游戏服务器开发工程师",
+          "required_skills": [
+            "C++",
+            "游戏服务器开发",
+            "网络通信",
+            "数据库交互",
+            "TCP/IP协议",
+            "多线程编程",
+            "高并发",
+            "分布式游戏系统"
+          ],
+          "experience_level": "3年以上",
+          "salary_range": null,
+          "location": null,
+          "education_requirements": "本科",
+          "responsibilities": [
+            "负责大型多人在线游戏的后端服务器开发",
+            "开发游戏逻辑、网络通信、数据库交互等模块",
+            "实现高性能和低延迟的服务器"
+          ],
+          "qualifications": [
+            "计算机相关专业本科",
+            "3年以上C++游戏服务器开发经验",
+            "熟悉TCP/IP协议、多线程编程",
+            "有高并发、分布式游戏系统经验"
+          ]
+        },
+        "time_taken": 8.494686126708984,
+        "is_accurate": true
+      },
+      {
+        "jd_id": 13,
+        "jd_text": "公司: 快手\n职位: 资深PHP后端工程师 - 短视频社区\n描述: 负责快手短视频社区的用户系统、内容管理、互动功能等后端开发。优化系统性能，支持海量用户。\n要求: 计算机相关专业本科；5年以上PHP后端开发经验；熟悉Laravel/Yii框架、MySQL优化；有大型互联网社区经验。",
+        "extracted_data": {
+          "company_name": "快手",
+          "job_title": "资深PHP后端工程师 - 短视频社区",
+          "required_skills": [
+            "PHP",
+            "后端开发",
+            "Laravel",
+            "Yii",
+            "MySQL优化"
+          ],
+          "experience_level": "5年以上",
+          "salary_range": null,
+          "location": "不详",
+          "education_requirements": "本科",
+          "responsibilities": [
+            "负责快手短视频社区的用户系统、内容管理、互动功能等后端开发。",
+            "优化系统性能，支持海量用户。"
+          ],
+          "qualifications": [
+            "计算机相关专业本科",
+            "5年以上PHP后端开发经验",
+            "熟悉Laravel/Yii框架、MySQL优化",
+            "有大型互联网社区经验"
+          ]
+        },
+        "time_taken": 8.502351999282837,
+        "is_accurate": true
+      },
+      {
+        "jd_id": 14,
+        "jd_text": "公司: 哔哩哔哩\n职位: Python后端开发工程师 - 推荐服务\n描述: 负责B站推荐服务的后端接口开发与维护，包括数据接口、业务逻辑、性能优化等。与算法团队紧密合作。\n要求: 计算机相关专业本科；3年以上Python后端开发经验；熟悉Django/Flask、Restful API；有视频平台或推荐系统经验。",
+        "extracted_data": {
+          "company_name": "哔哩哔哩",
+          "job_title": "Python后端开发工程师 - 推荐服务",
+          "required_skills": [
+            "Python后端开发",
+            "Django",
+            "Flask",
+            "Restful API",
+            "性能优化",
+            "推荐系统"
+          ],
+          "experience_level": "3年以上",
+          "salary_range": null,
+          "location": null,
+          "education_requirements": "计算机相关专业本科",
+          "responsibilities": [
+            "负责B站推荐服务的后端接口开发与维护，包括数据接口、业务逻辑、性能优化等。",
+            "与算法团队紧密合作。"
+          ],
+          "qualifications": [
+            "计算机相关专业本科",
+            "3年以上Python后端开发经验",
+            "熟悉Django/Flask、Restful API",
+            "有视频平台或推荐系统经验"
+          ]
+        },
+        "time_taken": 7.656068801879883,
+        "is_accurate": true
+      },
+      {
+        "jd_id": 15,
+        "jd_text": "公司: 携程\n职位: 资深Java后端架构师\n描述: 负责携程旅游平台核心系统的架构设计与演进，解决高并发、大数据量下的技术挑战。推动技术创新和平台升级。\n要求: 计算机相关专业硕士；8年以上Java后端开发经验，其中3年以上架构设计经验；精通Spring Cloud全家桶、分布式事务、消息队列。",
+        "extracted_data": {
+          "company_name": "携程",
+          "job_title": "资深Java后端架构师",
+          "required_skills": [
+            "Java",
+            "Spring Cloud",
+            "分布式事务",
+            "消息队列",
+            "架构设计",
+            "高并发",
+            "大数据"
+          ],
+          "experience_level": "8年以上",
+          "salary_range": null,
+          "location": null,
+          "education_requirements": "计算机相关专业硕士",
+          "responsibilities": [
+            "负责携程旅游平台核心系统的架构设计与演进",
+            "解决高并发、大数据量下的技术挑战",
+            "推动技术创新和平台升级"
+          ],
+          "qualifications": [
+            "计算机相关专业硕士",
+            "8年以上Java后端开发经验，其中3年以上架构设计经验",
+            "精通Spring Cloud全家桶、分布式事务、消息队列"
+          ]
+        },
+        "time_taken": 4.6066272258758545,
+        "is_accurate": true
+      },
+      {
+        "jd_id": 16,
+        "jd_text": "公司: 拼多多\n职位: 高级Golang开发工程师\n描述: 负责拼多多核心业务系统的高性能后端服务开发，包括秒杀、优惠券、订单等。优化系统响应速度和稳定性。\n要求: 计算机相关专业本科；5年以上Golang开发经验；熟悉Gin/Echo框架、gRPC；对高并发系统有深度优化经验。",
+        "extracted_data": {
+          "company_name": "拼多多",
+          "job_title": "高级Golang开发工程师",
+          "required_skills": [
+            "Golang",
+            "Gin",
+            "Echo",
+            "gRPC",
+            "高并发系统优化"
+          ],
+          "experience_level": "5年以上",
+          "salary_range": null,
+          "location": null,
+          "education_requirements": "计算机相关专业本科",
+          "responsibilities": [
+            "负责拼多多核心业务系统的高性能后端服务开发，包括秒杀、优惠券、订单等。",
+            "优化系统响应速度和稳定性。"
+          ],
+          "qualifications": [
+            "计算机相关专业本科",
+            "5年以上Golang开发经验",
+            "熟悉Gin/Echo框架、gRPC",
+            "对高并发系统有深度优化经验。"
+          ]
+        },
+        "time_taken": 4.35357403755188,
+        "is_accurate": true
+      },
+      {
+        "jd_id": 17,
+        "jd_text": "公司: 字节跳动\n职位: 后端开发工程师 - 广告系统 (Rust)\n描述: 参与字节跳动广告系统的后端服务开发，使用Rust语言构建高性能、高可靠的微服务。对系统性能有极致追求。\n要求: 计算机相关专业本科；2年以上Rust开发经验或有C++/Go背景；熟悉系统编程和并发；有广告系统经验者优先。",
+        "extracted_data": {
+          "company_name": "字节跳动",
+          "job_title": "后端开发工程师 - 广告系统 (Rust)",
+          "required_skills": [
+            "Rust",
+            "C++",
+            "Go",
+            "系统编程",
+            "并发",
+            "广告系统"
+          ],
+          "experience_level": "2年以上",
+          "salary_range": null,
+          "location": "不详",
+          "education_requirements": "本科",
+          "responsibilities": [
+            "参与字节跳动广告系统的后端服务开发",
+            "使用Rust语言构建高性能、高可靠的微服务",
+            "对系统性能有极致追求"
+          ],
+          "qualifications": [
+            "计算机相关专业本科",
+            "2年以上Rust开发经验或有C++/Go背景",
+            "熟悉系统编程和并发",
+            "有广告系统经验者优先"
+          ]
+        },
+        "time_taken": 6.288984775543213,
+        "is_accurate": true
+      },
+      {
+        "jd_id": 18,
+        "jd_text": "公司: 阿里妈妈\n职位: Node.js后端开发工程师 - 前端服务\n描述: 负责阿里妈妈广告平台的前端Node.js服务开发，承接前端请求，进行数据聚合和接口封装。提升前端开发效率。\n要求: 计算机相关专业本科；3年以上Node.js开发经验；熟悉Koa/Express框架；对前端技术有深入理解。",
+        "extracted_data": {
+          "company_name": "阿里妈妈",
+          "job_title": "Node.js后端开发工程师 - 前端服务",
+          "required_skills": [
+            "Node.js",
+            "Koa",
+            "Express",
+            "前端技术",
+            "数据聚合",
+            "接口封装"
+          ],
+          "experience_level": "3年以上",
+          "salary_range": null,
+          "location": null,
+          "education_requirements": "计算机相关专业本科",
+          "responsibilities": [
+            "负责阿里妈妈广告平台的前端Node.js服务开发",
+            "承接前端请求，进行数据聚合和接口封装",
+            "提升前端开发效率"
+          ],
+          "qualifications": [
+            "计算机相关专业本科",
+            "3年以上Node.js开发经验",
+            "熟悉Koa/Express框架",
+            "对前端技术有深入理解"
+          ]
+        },
+        "time_taken": 5.640155792236328,
+        "is_accurate": true
+      },
+      {
+        "jd_id": 19,
+        "jd_text": "公司: Shopee\n职位: 资深后端工程师 - 支付系统 (Python)\n描述: 负责Shopee支付系统的后端服务开发，确保交易安全和稳定性。与风控、账务团队协作。\n要求: 计算机相关专业本科；5年以上Python后端开发经验；熟悉Django/Flask、消息队列、分布式事务；有支付或金融系统经验。",
+        "extracted_data": {
+          "company_name": "Shopee",
+          "job_title": "资深后端工程师 - 支付系统 (Python)",
+          "required_skills": [
+            "Python",
+            "Django",
+            "Flask",
+            "消息队列",
+            "分布式事务",
+            "支付系统",
+            "金融系统"
+          ],
+          "experience_level": "5年以上",
+          "salary_range": "不详",
+          "location": "不详",
+          "education_requirements": "计算机相关专业本科",
+          "responsibilities": [
+            "负责Shopee支付系统的后端服务开发",
+            "确保交易安全和稳定性",
+            "与风控、账务团队协作"
+          ],
+          "qualifications": [
+            "计算机相关专业本科",
+            "5年以上Python后端开发经验",
+            "熟悉Django/Flask、消息队列、分布式事务",
+            "有支付或金融系统经验"
+          ]
+        },
+        "time_taken": 4.8388237953186035,
+        "is_accurate": true
+      },
+      {
+        "jd_id": 20,
+        "jd_text": "公司: 支付宝\n职位: 高级产品经理 - 开放平台\n描述: 负责支付宝开放平台的产品规划、设计和迭代，包括开发者工具、API接口、商业化能力等。赋能商家和合作伙伴。\n要求: 本科及以上学历；5年以上互联网产品经理经验，其中3年以上开放平台或B端产品经验；对技术有较强理解力。",
+        "extracted_data": {
+          "company_name": "支付宝",
+          "job_title": "高级产品经理 - 开放平台",
+          "required_skills": [
+            "产品规划",
+            "产品设计",
+            "产品迭代",
+            "开发者工具",
+            "API接口",
+            "商业化能力",
+            "开放平台",
+            "B端产品",
+            "技术理解力"
+          ],
+          "experience_level": "5年以上",
+          "salary_range": null,
+          "location": null,
+          "education_requirements": "本科及以上学历",
+          "responsibilities": [
+            "负责支付宝开放平台的产品规划、设计和迭代，包括开发者工具、API接口、商业化能力等。",
+            "赋能商家和合作伙伴。"
+          ],
+          "qualifications": [
+            "本科及以上学历",
+            "5年以上互联网产品经理经验，其中3年以上开放平台或B端产品经验",
+            "对技术有较强理解力。"
+          ]
+        },
+        "time_taken": 5.298469066619873,
+        "is_accurate": true
+      },
+      {
+        "jd_id": 21,
+        "jd_text": "公司: 滴滴出行\n职位: 产品经理 - 智能交通\n描述: 负责滴滴智能交通解决方案的产品定义、需求分析和项目管理。与政府、行业伙伴合作，推动智慧城市建设。\n要求: 本科及以上学历；3年以上交通出行或智慧城市领域产品经验；具备较强的数据分析和沟通协调能力。",
+        "extracted_data": {
+          "company_name": "滴滴出行",
+          "job_title": "产品经理 - 智能交通",
+          "required_skills": [
+            "产品定义",
+            "需求分析",
+            "项目管理",
+            "数据分析",
+            "沟通协调"
+          ],
+          "experience_level": "3年以上",
+          "salary_range": null,
+          "location": null,
+          "education_requirements": "本科及以上学历",
+          "responsibilities": [
+            "负责滴滴智能交通解决方案的产品定义、需求分析和项目管理。",
+            "与政府、行业伙伴合作，推动智慧城市建设。"
+          ],
+          "qualifications": [
+            "本科及以上学历",
+            "3年以上交通出行或智慧城市领域产品经验",
+            "具备较强的数据分析和沟通协调能力"
+          ]
+        },
+        "time_taken": 6.148681163787842,
+        "is_accurate": true
+      },
+      {
+        "jd_id": 22,
+        "jd_text": "公司: 字节跳动\n职位: 高级产品经理 - 短视频社区\n描述: 负责抖音/TikTok短视频社区的产品策略、功能设计和运营增长。深入理解用户需求，提升用户活跃度和留存。\n要求: 本科及以上学历；5年以上C端产品经理经验，有短视频或社区产品经验者优先；对用户增长有独到见解。",
+        "extracted_data": {
+          "company_name": "字节跳动",
+          "job_title": "高级产品经理 - 短视频社区",
+          "required_skills": [
+            "产品策略",
+            "功能设计",
+            "运营增长",
+            "用户增长",
+            "C端产品",
+            "短视频产品",
+            "社区产品"
+          ],
+          "experience_level": "5年以上",
+          "salary_range": null,
+          "location": "不详",
+          "education_requirements": "本科及以上学历",
+          "responsibilities": [
+            "负责抖音/TikTok短视频社区的产品策略、功能设计和运营增长。",
+            "深入理解用户需求，提升用户活跃度和留存。"
+          ],
+          "qualifications": [
+            "本科及以上学历",
+            "5年以上C端产品经理经验",
+            "有短视频或社区产品经验者优先",
+            "对用户增长有独到见解"
+          ]
+        },
+        "time_taken": 7.061313152313232,
+        "is_accurate": true
+      },
+      {
+        "jd_id": 23,
+        "jd_text": "公司: 美团\n职位: 产品经理 - 到店业务\n描述: 负责美团到店业务的产品规划和迭代，包括餐饮、休闲娱乐等。提升商家效率和用户消费体验。\n要求: 本科及以上学历；3年以上O2O或本地生活产品经验；具备数据驱动的产品决策能力；优秀的执行力。",
+        "extracted_data": {
+          "company_name": "美团",
+          "job_title": "产品经理 - 到店业务",
+          "required_skills": [
+            "产品规划",
+            "产品迭代",
+            "O2O",
+            "本地生活",
+            "数据驱动",
+            "执行力"
+          ],
+          "experience_level": "3年以上",
+          "salary_range": null,
+          "location": null,
+          "education_requirements": "本科及以上学历",
+          "responsibilities": [
+            "负责美团到店业务的产品规划和迭代，包括餐饮、休闲娱乐等",
+            "提升商家效率和用户消费体验"
+          ],
+          "qualifications": [
+            "本科及以上学历",
+            "3年以上O2O或本地生活产品经验",
+            "具备数据驱动的产品决策能力",
+            "优秀的执行力"
+          ]
+        },
+        "time_taken": 4.9061119556427,
+        "is_accurate": true
+      },
+      {
+        "jd_id": 24,
+        "jd_text": "公司: 拼多多\n职位: 产品经理 - 社交电商\n描述: 负责拼多多社交电商玩法的产品设计和创新，包括拼团、砍价、直播电商等。挖掘用户社交需求，促进销售增长。\n要求: 本科及以上学历；3年以上电商或社交产品经验；对社交流量转化有深刻理解；抗压能力强。",
+        "extracted_data": {
+          "company_name": "拼多多",
+          "job_title": "产品经理 - 社交电商",
+          "required_skills": [
+            "产品设计",
+            "社交电商",
+            "拼团",
+            "砍价",
+            "直播电商",
+            "社交流量转化"
+          ],
+          "experience_level": "3年以上",
+          "salary_range": null,
+          "location": null,
+          "education_requirements": "本科及以上学历",
+          "responsibilities": [
+            "负责拼多多社交电商玩法的产品设计和创新，包括拼团、砍价、直播电商等",
+            "挖掘用户社交需求，促进销售增长"
+          ],
+          "qualifications": [
+            "本科及以上学历",
+            "3年以上电商或社交产品经验",
+            "对社交流量转化有深刻理解",
+            "抗压能力强"
+          ]
+        },
+        "time_taken": 7.7052528858184814,
+        "is_accurate": true
+      },
+      {
+        "jd_id": 25,
+        "jd_text": "公司: 携程\n职位: 产品经理 - 国际机票\n描述: 负责携程国际机票业务的产品规划和运营，包括机票搜索、预订、售后服务等。提升用户体验和市场份额。\n要求: 本科及以上学历；3年以上在线旅游或国际机票产品经验；具备较强的业务理解能力和跨文化沟通能力。",
+        "extracted_data": {
+          "company_name": "携程",
+          "job_title": "产品经理 - 国际机票",
+          "required_skills": [
+            "产品规划",
+            "产品运营",
+            "机票搜索",
+            "预订",
+            "售后服务",
+            "业务理解能力",
+            "跨文化沟通能力"
+          ],
+          "experience_level": "3年以上",
+          "salary_range": null,
+          "location": null,
+          "education_requirements": "本科及以上学历",
+          "responsibilities": [
+            "负责携程国际机票业务的产品规划和运营，包括机票搜索、预订、售后服务等。",
+            "提升用户体验和市场份额。"
+          ],
+          "qualifications": [
+            "本科及以上学历",
+            "3年以上在线旅游或国际机票产品经验",
+            "具备较强的业务理解能力和跨文化沟通能力。"
+          ]
+        },
+        "time_taken": 5.205008268356323,
+        "is_accurate": true
+      },
+      {
+        "jd_id": 26,
+        "jd_text": "公司: 小红书\n职位: 产品经理 - 社区与内容\n描述: 负责小红书社区内容生态的产品设计和优化，包括内容创作工具、推荐机制、社区互动等。激发用户创造力。\n要求: 本科及以上学历；3年以上内容社区或UGC平台产品经验；对Z世代用户有深刻洞察；审美在线。",
+        "extracted_data": {
+          "company_name": "小红书",
+          "job_title": "产品经理 - 社区与内容",
+          "required_skills": [
+            "产品设计",
+            "产品优化",
+            "内容创作工具",
+            "推荐机制",
+            "社区互动",
+            "用户洞察",
+            "审美"
+          ],
+          "experience_level": "3年以上",
+          "salary_range": null,
+          "location": null,
+          "education_requirements": "本科及以上学历",
+          "responsibilities": [
+            "负责小红书社区内容生态的产品设计和优化，包括内容创作工具、推荐机制、社区互动等。",
+            "激发用户创造力。"
+          ],
+          "qualifications": [
+            "本科及以上学历",
+            "3年以上内容社区或UGC平台产品经验",
+            "对Z世代用户有深刻洞察",
+            "审美在线"
+          ]
+        },
+        "time_taken": 6.50798487663269,
+        "is_accurate": true
+      },
+      {
+        "jd_id": 27,
+        "jd_text": "公司: 哔哩哔哩\n职位: 产品经理 - 虚拟偶像\n描述: 负责B站虚拟偶像业务的产品规划和运营，包括形象设计、内容制作、粉丝互动等。打造Z世代虚拟文化IP。\n要求: 本科及以上学历；3年以上虚拟偶像、游戏、动漫或娱乐产品经验；对二次元文化有热情；具备IP运营能力。",
+        "extracted_data": {
+          "company_name": "哔哩哔哩",
+          "job_title": "产品经理 - 虚拟偶像",
+          "required_skills": [
+            "产品规划",
+            "运营",
+            "形象设计",
+            "内容制作",
+            "粉丝互动",
+            "IP运营",
+            "二次元文化"
+          ],
+          "experience_level": "3年以上",
+          "salary_range": null,
+          "location": null,
+          "education_requirements": "本科及以上学历",
+          "responsibilities": [
+            "负责B站虚拟偶像业务的产品规划和运营，包括形象设计、内容制作、粉丝互动等。",
+            "打造Z世代虚拟文化IP。"
+          ],
+          "qualifications": [
+            "本科及以上学历",
+            "3年以上虚拟偶像、游戏、动漫或娱乐产品经验",
+            "对二次元文化有热情",
+            "具备IP运营能力"
+          ]
+        },
+        "time_taken": 6.695014715194702,
+        "is_accurate": true
+      },
+      {
+        "jd_id": 28,
+        "jd_text": "公司: 网易云音乐\n职位: 产品经理 - 音乐社交\n描述: 负责网易云音乐社交功能的产品设计和迭代，包括评论区、歌单广场、乐迷圈等。提升社区活跃度和用户粘性。\n要求: 本科及以上学历；3年以上社交产品或音乐行业产品经验；对音乐内容和用户有深刻理解；有数据分析能力。",
+        "extracted_data": {
+          "company_name": "网易云音乐",
+          "job_title": "产品经理 - 音乐社交",
+          "required_skills": [
+            "产品设计",
+            "产品迭代",
+            "数据分析",
+            "社交产品",
+            "音乐行业"
+          ],
+          "experience_level": "3年以上",
+          "salary_range": "不详",
+          "location": "不详",
+          "education_requirements": "本科及以上学历",
+          "responsibilities": [
+            "负责网易云音乐社交功能的产品设计和迭代，包括评论区、歌单广场、乐迷圈等。",
+            "提升社区活跃度和用户粘性。"
+          ],
+          "qualifications": [
+            "本科及以上学历",
+            "3年以上社交产品或音乐行业产品经验",
+            "对音乐内容和用户有深刻理解",
+            "有数据分析能力"
+          ]
+        },
+        "time_taken": 7.275464057922363,
+        "is_accurate": true
+      },
+      {
+        "jd_id": 29,
+        "jd_text": "公司: 理想汽车\n职位: 产品经理 - 智能座舱\n描述: 负责理想汽车智能座舱的产品规划和体验设计，包括车机系统、语音助手、娱乐生态等。提升驾乘智能化体验。\n要求: 本科及以上学历；5年以上智能座舱或汽车电子产品经验；对人机交互、用户体验有深刻理解；具备项目管理能力。",
+        "extracted_data": {
+          "company_name": "理想汽车",
+          "job_title": "产品经理 - 智能座舱",
+          "required_skills": [
+            "智能座舱",
+            "汽车电子产品",
+            "人机交互",
+            "用户体验",
+            "项目管理"
+          ],
+          "experience_level": "5年以上",
+          "salary_range": null,
+          "location": null,
+          "education_requirements": "本科及以上学历",
+          "responsibilities": [
+            "负责理想汽车智能座舱的产品规划和体验设计，包括车机系统、语音助手、娱乐生态等",
+            "提升驾乘智能化体验"
+          ],
+          "qualifications": [
+            "本科及以上学历",
+            "5年以上智能座舱或汽车电子产品经验",
+            "对人机交互、用户体验有深刻理解",
+            "具备项目管理能力"
+          ]
+        },
+        "time_taken": 6.306065797805786,
+        "is_accurate": true
+      }
+    ]
+  },
+  "match_resume_evaluation": {
+    "reasonableness_rate": 94.0,
+    "average_response_time_seconds": 22.554947638511656,
+    "total_matches_evaluated": 50,
+    "detailed_results": [
+      {
+        "jd_id": 0,
+        "resume_id": 0,
+        "jd_title": "高级AI工程师 - 推荐系统",
+        "resume_name": "张三",
+        "match_data": {
+          "match_score": {
+            "overall": 92,
+            "skill_match": 95,
+            "experience_match": 85,
+            "education_match": 100
+          },
+          "strengths": [
+            "教育背景高度匹配：清华大学计算机硕士学历，完全符合并超出“硕士及以上学历”的要求。",
+            "核心技能全面覆盖：简历中明确列出并展示了推荐系统、机器学习、深度学习、强化学习、PyTorch、TensorFlow等JD要求的核心技能。",
+            "工作经验相关性极高：候选人目前就在字节跳动担任高级AI工程师，负责抖音推荐系统，与JD描述的职位和职责几乎完全一致。",
+            "项目成果量化：项目经验中明确指出“基于深度学习和强化学习”进行推荐系统优化，并量化了成果“提升CTR 15%”，证明了其具备解决实际问题的能力和影响力。"
+          ],
+          "weaknesses": [
+            "工作年限可能不足：从简历看，候选人的全职工作经验从2021年开始，总计约3-4年，与JD要求的“5年以上”存在差距。",
+            "部分技能描述不够具体：JD要求“大规模数据处理和分布式系统经验”，尽管候选人的项目是“大规模推荐系统优化”且技能包含Docker/Kubernetes，但简历中没有明确描述处理的数据规模或分布式系统的具体架构，匹配度依赖于推断。"
+          ],
+          "suggestions": [
+            "补充工作年限或突出经验深度：如果包含硕士期间的研究或实习经验可以凑近5年，建议在简历中体现。如果年限确实不足，应在面试中或求职信中强调经验的深度、复杂度和影响力，以弥补年限上的不足。",
+            "具象化技能描述：在项目或工作经验描述中，增加关于“大规模数据处理”和“分布式系统”的具体细节。例如，可以补充“处理每日TB级别的用户行为数据”、“使用Spark进行数据预处理”、“在Kubernetes集群上部署和管理分布式训练任务”等，使之与JD要求更加显式地匹配。",
+            "丰富当前工作职责：可以为当前在字节跳动的工作内容增加更多细节，比如使用了哪些具体模型（如DeepFM, DIN等）、解决了哪些具体挑战（如冷启动、多样性等），以进一步展示其在该领域的专业深度。"
+          ]
+        },
+        "time_taken": 24.41029691696167,
+        "is_reasonable": true
+      },
+      {
+        "jd_id": 0,
+        "resume_id": 1,
+        "jd_title": "高级AI工程师 - 推荐系统",
+        "resume_name": "李四",
+        "match_data": {
+          "match_score": {
+            "overall": 15,
+            "skill_match": 10,
+            "experience_match": 15,
+            "education_match": 40
+          },
+          "strengths": [
+            "具备在顶级互联网公司（阿里巴巴）的工作经验，证明了其技术基础和应对复杂业务场景的能力。",
+            "拥有高并发和分布式系统（如电商交易平台、分布式链路追踪系统）的实际开发经验，这与JD中提到的大规模数据处理和分布式系统经验有一定关联。",
+            "毕业于国内知名高校（浙江大学），教育背景良好。"
+          ],
+          "weaknesses": [
+            "核心技能栈不匹配：JD要求Python、PyTorch/TensorFlow等AI算法栈，而候选人技能为Java、Spring Boot等后端开发栈，完全不符。",
+            "工作领域不匹配：JD要求推荐系统、机器学习算法研发经验，而候选人的经验集中在电商后端业务开发，没有AI或算法相关经验。",
+            "工作年限不足：JD要求5年以上经验，候选人从2022年开始工作，满打满算仅约2年多，远未达到要求。",
+            "学历背景不达标：JD要求硕士及以上学历，候选人为学士学历。"
+          ],
+          "suggestions": [
+            "职业方向转型：若想从事AI算法岗位，需要系统性地学习机器学习、深度学习、推荐系统等相关理论知识。",
+            "补充核心技能：主攻Python语言，并熟练掌握PyTorch或TensorFlow等深度学习框架。",
+            "积累项目经验：可以通过在线课程、开源项目或个人项目，实践推荐系统算法，并将其体现在简历中，例如构建一个电影或商品推荐系统。",
+            "提升学历：考虑攻读计算机科学或相关领域的硕士学位，以满足岗位的硬性要求。",
+            "调整求职目标：以目前的简历来看，更适合投递Java后端开发相关的岗位，而非AI算法工程师。"
+          ]
+        },
+        "time_taken": 18.98677897453308,
+        "is_reasonable": true
+      },
+      {
+        "jd_id": 0,
+        "resume_id": 2,
+        "jd_title": "高级AI工程师 - 推荐系统",
+        "resume_name": "王五",
+        "match_data": {
+          "match_score": {
+            "overall": 25,
+            "skill_match": 15,
+            "experience_match": 5,
+            "education_match": 95
+          },
+          "strengths": [
+            "教育背景优秀：拥有上海交通大学的硕士学位，与职位要求的“硕士及以上学历”高度匹配。",
+            "具备领域相关认知：项目经验涉及“智能推荐小程序”和“用户画像分析”，表明对推荐系统和数据驱动决策的应用场景有了解。",
+            "掌握基础数据技能：具备Python和SQL技能，这是进入AI领域的基础。"
+          ],
+          "weaknesses": [
+            "职业定位完全不符：简历展示的是产品经理的职业路径和经验，而申请的是一个高级AI工程师的技术研发岗位，角色存在根本性差异。",
+            "核心技术能力严重缺失：JD要求的深度学习、强化学习、PyTorch/TensorFlow、大规模数据处理、分布式系统等关键技能，在简历中均未体现。",
+            "工作经验年限与性质不符：JD要求5年以上算法研发经验，而简历只有1-2年的产品管理经验，无任何算法研发和工程落地经验。",
+            "项目经验视角错误：简历中的项目经验是从产品经理角度描述（需求分析、原型设计、项目协调），而非工程师角度（算法选型、模型训练、系统实现、性能优化）。"
+          ],
+          "suggestions": [
+            "明确职业规划：当前简历与高级AI工程师岗位差距巨大。建议优先考虑AI产品经理等更匹配的岗位，更能发挥现有经验的优势。",
+            "若决心转行AI工程师：需要进行系统性的技能重塑。建议通过在线课程、开源项目或学术研究，深入学习深度学习、强化学习等核心理论。",
+            "积累动手实践经验：使用PyTorch/TensorFlow等框架，完成多个有深度的个人项目（如从零搭建推荐系统模型），并参加Kaggle等数据科学竞赛，将成果展示在简历和个人GitHub上。",
+            "重塑简历内容：在描述项目时，应彻底改变叙述角度。即使是之前的项目，也应尝试从技术角度挖掘，例如“分析了哪些数据指标来辅助算法选型”、“定义了哪些AB测试的评估标准”等，并把新做的技术项目作为核心内容进行展示。"
+          ]
+        },
+        "time_taken": 29.79565119743347,
+        "is_reasonable": true
+      },
+      {
+        "jd_id": 0,
+        "resume_id": 3,
+        "jd_title": "高级AI工程师 - 推荐系统",
+        "resume_name": "赵六",
+        "match_data": {
+          "match_score": {
+            "overall": 25,
+            "skill_match": 30,
+            "experience_match": 15,
+            "education_match": 40
+          },
+          "strengths": [
+            "简历中提到了大规模分布式系统的相关经验，例如微服务、Kubernetes、Kafka，与JD中的“分布式系统经验”要求部分匹配。",
+            "具备Python技能，这是JD要求的编程语言之一。",
+            "在快手的工作经验（短视频内容分发）与字节跳动的业务领域相关，对业务场景有一定理解。"
+          ],
+          "weaknesses": [
+            "教育背景不符：JD要求硕士及以上学历，候选人为学士学位。",
+            "工作年限严重不符：JD要求5年以上经验，候选人全职工作经验仅约1年多，远未达到要求。",
+            "核心技能缺失：简历中完全没有体现JD所要求的核心技能，如推荐系统、深度学习、强化学习、机器学习以及相关的PyTorch/TensorFlow框架经验。",
+            "工作经验领域不符：候选人的经验集中在通用后端开发（用户管理、内容分发、秒杀系统），而非AI算法研发或推荐系统领域。"
+          ],
+          "suggestions": [
+            "学历提升：若想长期发展AI算法方向，建议考虑攻读计算机相关专业的硕士学位，以满足许多高级职位的硬性要求。",
+            "技能转型与学习：系统学习机器学习、深度学习和推荐系统理论知识。通过在线课程、开源项目（如复现推荐系统经典模型）等方式积累实践经验，并熟练掌握PyTorch或TensorFlow框架。",
+            "项目经验补充：在个人项目或工作中寻找与算法、数据分析相关的机会。例如，可以尝试利用公司的用户行为数据，构建一个简单的内容推荐模型作为个人项目，并将其写入简历。",
+            "职位目标调整：以目前的简历背景，更适合申请Go后端开发或初级后端工程师的职位。若对AI方向感兴趣，可以先从公司内部转岗或寻找数据工程、算法工程等入门级岗位开始积累经验。"
+          ]
+        },
+        "time_taken": 19.900133848190308,
+        "is_reasonable": true
+      },
+      {
+        "jd_id": 0,
+        "resume_id": 4,
+        "jd_title": "高级AI工程师 - 推荐系统",
+        "resume_name": "钱七",
+        "match_data": {
+          "match_score": {
+            "overall": 35,
+            "skill_match": 45,
+            "experience_match": 20,
+            "education_match": 100
+          },
+          "strengths": [
+            "教育背景高度匹配：拥有中国科学院大学的人工智能硕士学位，完全符合职位对硕士及以上学历的要求。",
+            "技术基础扎实：精通Python和PyTorch，这是职位要求的核心技术栈之一。",
+            "具备前沿AI经验：拥有大语言模型(LLM)、文本生成等AIGC领域的研发经验，表明候选人具备优秀的学习能力和技术前瞻性。"
+          ],
+          "weaknesses": [
+            "核心经验领域不符：职位要求是“推荐系统”，而候选人的工作经验主要集中在自然语言处理(NLP)和计算机视觉(CV)领域，完全没有提及推荐系统相关的项目或工作经验。",
+            "工作年限严重不足：职位要求“5年以上”经验，而候选人全职工作经验不足1年，总经验（含实习）约2年，与高级工程师的定位差距巨大。",
+            "关键技能缺失：简历中未体现JD要求的“强化学习”、“大规模数据处理”和“分布式系统”等关键技能，这些对于处理字节跳动海量数据的推荐业务至关重要。"
+          ],
+          "suggestions": [
+            "补充推荐系统经验：建议通过个人项目或在线课程学习并实践推荐系统算法，例如在公开数据集上实现协同过滤、矩阵分解、Wide & Deep、DeepFM等模型，并将其添加到简历中。",
+            "突出技能的迁移性：在简历中可以尝试强调NLP技能（如用户意图理解、文本特征提取）如何应用于推荐场景（如内容推荐、用户画像构建），以展示技能的潜在关联性。",
+            "调整求职目标：目前的经验水平更适合申请初级或中级的AI算法工程师岗位。针对高级岗位，需要在相关领域积累更多年的工作经验。",
+            "学习并展示缺失技能：主动学习强化学习、Spark等大规模数据处理框架的知识，并可以在项目经验中体现对处理大数据量的思考和实践，即使规模较小。"
+          ]
+        },
+        "time_taken": 20.580795764923096,
+        "is_reasonable": true
+      },
+      {
+        "jd_id": 0,
+        "resume_id": 5,
+        "jd_title": "高级AI工程师 - 推荐系统",
+        "resume_name": "孙八",
+        "match_data": {
+          "match_score": {
+            "overall": 5,
+            "skill_match": 5,
+            "experience_match": 5,
+            "education_match": 20
+          },
+          "strengths": [
+            "具备大型互联网公司（美团、饿了么）的工作经验，了解面向用户的产品和业务逻辑。",
+            "具备数据分析、SQL和AB测试的经验，对通过数据驱动产品优化有一定理解。"
+          ],
+          "weaknesses": [
+            "职业背景完全不符：候选人为产品经理，而职位是高级AI工程师，职责和工作内容完全不同。",
+            "核心技能严重缺失：简历中未体现任何推荐系统、深度学习、强化学习、机器学习算法等相关技能，也未提及Python、PyTorch/TensorFlow等编程和框架能力。",
+            "工作经验不符：候选人经验为产品设计和运营，与职位要求的算法研发经验完全不相关。同时，工作年限（约3年）也未达到要求的“5年以上”。",
+            "学历背景不符：职位要求硕士及以上学历，候选人为学士学位。"
+          ],
+          "suggestions": [
+            "该简历与职位要求存在根本性差异，几乎没有匹配度，不建议投递。候选人应寻找与其背景相符的产品经理类职位。",
+            "如果候选人未来希望转向AI工程师方向，需要进行长期的职业规划和转型准备，包括但不限于：",
+            "1. 学历提升：攻读计算机科学、人工智能或相关领域的硕士学位。",
+            "2. 技能学习：系统性学习机器学习、深度学习、推荐系统等核心理论，并熟练掌握Python编程及TensorFlow/PyTorch等主流框架。",
+            "3. 实践积累：通过个人项目、开源贡献或实习，积累算法研发和数据处理的实际经验，并从初级算法岗位开始职业生涯。"
+          ]
+        },
+        "time_taken": 22.122960805892944,
+        "is_reasonable": true
+      },
+      {
+        "jd_id": 0,
+        "resume_id": 6,
+        "jd_title": "高级AI工程师 - 推荐系统",
+        "resume_name": "周九",
+        "match_data": {
+          "match_score": {
+            "overall": 20,
+            "skill_match": 10,
+            "experience_match": 5,
+            "education_match": 100
+          },
+          "strengths": [
+            "教育背景高度匹配：拥有华中科技大学的软件工程硕士学位，完全符合职位对“硕士及以上学历”和“计算机科学或相关领域”的要求。",
+            "具备扎实的后端开发基础：拥有C++高性能服务器开发经验，对高并发、网络编程有深入理解，这表明候选人具备优秀的工程能力。"
+          ],
+          "weaknesses": [
+            "核心技能严重缺失：简历中完全没有提及职位要求的推荐系统、深度学习、强化学习、机器学习、Python、PyTorch或TensorFlow等关键技能。",
+            "工作经验领域不符：候选人的工作经验完全集中在C++游戏服务器开发领域，与职位要求的“推荐系统或机器学习算法研发经验”完全不相关。",
+            "工作年限不符：即使不考虑领域相关性，候选人的工作年限也可能未达到“5年以上”的要求，且在相关领域的经验为零。",
+            "技术栈不匹配：职位要求精通Python及相关AI框架，而候选人的技术栈以C++为主，存在根本性差异。"
+          ],
+          "suggestions": [
+            "进行技能转型学习：建议系统性地学习Python编程、机器学习、深度学习以及推荐系统相关的核心理论和算法。可以通过在线课程（如Coursera、Udacity）和书籍进行学习。",
+            "积累相关项目经验：在掌握理论知识后，通过个人项目或参与Kaggle等数据科学竞赛来积累实践经验。例如，可以尝试使用公开数据集（如MovieLens）从零开始搭建一个推荐系统，并将其写入简历。",
+            "调整求职目标：目前的简历与该AI工程师职位匹配度极低。建议优先考虑与当前技能和经验高度匹配的C++后端开发、游戏服务器开发等职位。",
+            "从初级岗位开始转型：如果决心转向AI领域，建议从初级算法工程师或数据分析师岗位开始，在实际工作中积累相关经验，逐步向高级职位发展。"
+          ]
+        },
+        "time_taken": 19.661106824874878,
+        "is_reasonable": true
+      },
+      {
+        "jd_id": 0,
+        "resume_id": 7,
+        "jd_title": "高级AI工程师 - 推荐系统",
+        "resume_name": "吴十",
+        "match_data": {
+          "match_score": {
+            "overall": 5,
+            "skill_match": 5,
+            "experience_match": 5,
+            "education_match": 10
+          },
+          "strengths": [
+            "拥有在大型互联网公司（拼多多、京东）的工作经验，熟悉电商行业的用户增长和转化逻辑。"
+          ],
+          "weaknesses": [
+            "职位角色完全不符：简历为产品经理背景，而职位招聘的是高级AI工程师，职责和技能要求存在根本性差异。",
+            "核心技能严重缺失：简历中未体现任何职位要求的技术能力，如推荐系统、深度学习、强化学习、Python、PyTorch/TensorFlow、大规模数据处理等。",
+            "工作经验不匹配：简历中的工作经验约为2年产品管理经验，远未达到职位要求的“5年以上推荐系统或机器学习算法研发经验”。",
+            "教育背景不达标：简历为经济学学士，而职位要求为“计算机科学或相关领域硕士及以上学历”，在学历层次和专业方向上均不匹配。"
+          ],
+          "suggestions": [
+            "明确职业发展方向：由于简历背景与职位要求差异巨大，建议首先明确是否要从产品经理转型为AI算法工程师。",
+            "系统性补充技术知识：若决心转型，需要从零开始系统学习计算机科学基础、机器学习、深度学习、推荐系统等核心理论。",
+            "实践编程与框架技能：转型需要投入大量时间学习Python编程，并熟练掌握至少一种深度学习框架（如PyTorch或TensorFlow），通过实践项目进行巩固。",
+            "提升教育背景和项目经验：考虑攻读计算机科学相关专业的硕士学位以满足硬性要求，并通过参与Kaggle竞赛、复现顶会论文、贡献开源项目等方式积累有效的算法项目经验。"
+          ]
+        },
+        "time_taken": 19.964624881744385,
+        "is_reasonable": true
+      },
+      {
+        "jd_id": 0,
+        "resume_id": 8,
+        "jd_title": "高级AI工程师 - 推荐系统",
+        "resume_name": "郑十一",
+        "match_data": {
+          "match_score": {
+            "overall": 60,
+            "skill_match": 65,
+            "experience_match": 50,
+            "education_match": 100
+          },
+          "strengths": [
+            "教育背景非常优秀，拥有卡内基梅隆大学的人工智能硕士和斯坦福大学的计算机科学学士学位，与JD要求的硕士及以上学历、相关专业完全匹配。",
+            "具备扎实的深度学习和强化学习技术背景，精通Python、PyTorch和TensorFlow，这些是JD要求的核心技术栈。",
+            "拥有在顶尖科技公司（特斯拉、Google Brain）的工作经验，证明其具备在高标准环境下解决复杂AI问题的能力。",
+            "具备前沿研究能力，有顶会论文发表经验，符合高级工程师对技术深度的要求。"
+          ],
+          "weaknesses": [
+            "核心领域不匹配：简历中完全没有提及“推荐系统”相关的技能或项目经验，而这是该职位的核心职责。",
+            "工作经验领域不符：候选人的经验集中在自动驾驶和机器人领域，与字节跳动核心产品的推荐业务场景（如抖音、头条）差异巨大。",
+            "工作年限略有不足：简历显示工作经验从2020年开始，约4年，未达到JD明确要求的“5年以上”经验。",
+            "缺乏大规模数据处理经验的体现：JD要求具备“大规模数据处理和分布式系统经验”，但简历中并未明确展示相关经历。"
+          ],
+          "suggestions": [
+            "如果在过往经历中有任何与推荐系统、用户行为分析、广告点击率预估等相关的项目，即使不是主要职责，也应在简历中突出展示。",
+            "针对“大规模数据处理和分布式系统”的要求，应在项目描述中量化所处理的数据规模、使用的计算资源（如集群规模、使用的框架如Spark/Hadoop等），以证明具备相关能力。",
+            "可以增加一个“个人总结”或“求职意向”部分，在其中阐述自己虽然过往经验在自动驾驶，但对推荐系统领域有浓厚兴趣，并说明自己掌握的强化学习等核心技术如何迁移应用于推荐场景。",
+            "由于工作年限略有不足，可以更详细地描述项目中的复杂性和个人承担的核心角色，以质补量，突出个人能力的快速成长和高影响力。"
+          ]
+        },
+        "time_taken": 22.297208786010742,
+        "is_reasonable": true
+      },
+      {
+        "jd_id": 0,
+        "resume_id": 9,
+        "jd_title": "高级AI工程师 - 推荐系统",
+        "resume_name": "冯十二",
+        "match_data": {
+          "match_score": {
+            "overall": 5,
+            "skill_match": 0,
+            "experience_match": 0,
+            "education_match": 0
+          },
+          "strengths": [
+            "在小红书（一个重度依赖推荐系统的平台）有产品运营经验，对内容生态和用户行为有一定理解。",
+            "具备用户分析和数据报告的经验，能从业务角度理解数据。"
+          ],
+          "weaknesses": [
+            "技能完全不匹配：简历中没有任何关于推荐系统、深度学习、强化学习、Python、PyTorch/TensorFlow等核心技术技能的体现。",
+            "工作经验领域不符：候选人经验集中在市场营销和产品运营，而非职位要求的算法研发。",
+            "工作年限不足且不相关：工作经验约3年，未达到5年以上的要求，且经验领域与职位无关。",
+            "教育背景不符：职位要求计算机科学或相关领域的硕士及以上学历，而候选人是市场营销学士。",
+            "项目经验不符：项目经验均为市场运营和内容营销方向，与算法研发和技术实现无关。"
+          ],
+          "suggestions": [
+            "职位匹配度极低，建议候选人考虑市场、运营或用户增长等更匹配其背景的职位。",
+            "若候选人有强烈的意愿转型为AI工程师，需要进行系统性的职业规划和学习。建议：",
+            "1. 补充基础知识：系统学习计算机科学、数据结构、算法和高等数学（线性代数、微积分、概率论）。",
+            "2. 攻读相关学位：考虑申请计算机科学或相关专业的硕士学位，以满足岗位的基本学历要求。",
+            "3. 学习核心技能：通过在线课程（如Coursera、Udacity）和实践项目，深入学习Python编程、机器学习、深度学习（PyTorch/TensorFlow）和推荐系统原理。",
+            "4. 积累项目经验：在GitHub上创建并完成个人项目，例如搭建一个简单的推荐系统模型，参加Kaggle等数据科学竞赛，以积累实际操作经验。",
+            "5. 从初级岗位开始：在完成上述准备后，从初级数据分析师或算法工程师助理等岗位开始积累行业经验，逐步向高级AI工程师发展。"
+          ]
+        },
+        "time_taken": 18.56127119064331,
+        "is_reasonable": true
+      },
+      {
+        "jd_id": 1,
+        "resume_id": 0,
+        "jd_title": "资深机器学习算法工程师 - 广告平台",
+        "resume_name": "张三",
+        "match_data": {
+          "match_score": {
+            "overall": 68,
+            "skill_match": 75,
+            "experience_match": 60,
+            "education_match": 50
+          },
+          "strengths": [
+            "核心技能匹配：候选人拥有在字节跳动抖音推荐系统中的工作经验，直接负责CTR优化，这与JD中的'点击率预估'要求高度相关。",
+            "技术栈匹配：精通JD要求的Python和C++编程语言，并熟练使用TensorFlow、PyTorch等主流机器学习框架。",
+            "名校背景：毕业于清华大学和北京大学，均为顶尖院校，学术背景扎实，学习能力强。",
+            "项目成果量化：在项目经验中明确指出'提升CTR 15%'，能量化自己的贡献和带来的业务价值，这是一个很大的亮点。",
+            "相关领域经验：项目经验中提到'应用于搜索和广告'，表明其工作成果已在广告领域有过初步应用。"
+          ],
+          "weaknesses": [
+            "工作年限严重不符：JD要求'8年以上'经验或博士学位，候选人从2021年开始工作，总工作年限约为3年，与'资深'岗位的年限要求差距巨大。",
+            "学历背景未达首选：JD优先要求'博士学位'，候选人为硕士学位，在未满足8年工作经验的情况下，学历背景不占优势。",
+            "缺乏广告系统核心经验：简历主要体现的是推荐系统经验，对于JD中明确提到的'广告投放系统'、'转化率优化'、'受众定向'等广告领域特定知识缺乏直接描述。",
+            "前沿技术领域空白：简历中未体现JD中优先考虑的'因果推断'、'联邦学习'等领域的深入研究或项目经验。"
+          ],
+          "suggestions": [
+            "突出经验深度和复杂度：鉴于年限不足，应在简历中更详细地描述在字节跳动所负责工作的复杂性、系统规模（如用户量、QPS）、以及个人在其中的核心技术贡献，以质补量，证明自己具备资深工程师的能力。",
+            "强化广告领域关联性：将'应用于搜索和广告'的项目经验具体化。详细说明在广告场景中做了什么，例如是广告CTR预估、还是用户画像构建等，尽可能使用JD中的关键词，如'广告点击率'、'广告转化'。",
+            "补充关键词和技能：在技能列表中或项目描述中，如果实际接触过，应明确补充'转化率优化(CVR)'、'受众定向(Audience Targeting)'等相关技术点。即使是初步探索，也可以体现。",
+            "体现学习和潜力：可以在简历的“个人总结”部分（如果添加的话）或求职信中，表明自己对'因果推断'、'联邦学习'等前沿技术有浓厚兴趣和正在进行的研究学习，以弥补经验上的空白，展示成长潜力。"
+          ]
+        },
+        "time_taken": 28.226454973220825,
+        "is_reasonable": true
+      },
+      {
+        "jd_id": 1,
+        "resume_id": 1,
+        "jd_title": "资深机器学习算法工程师 - 广告平台",
+        "resume_name": "李四",
+        "match_data": {
+          "match_score": {
+            "overall": 5,
+            "skill_match": 5,
+            "experience_match": 5,
+            "education_match": 10
+          },
+          "strengths": [
+            "毕业于国内知名高校（浙江大学），基础素质较好。",
+            "具备大型互联网公司（阿里巴巴）的后端开发经验，对高并发、分布式系统有一定理解。"
+          ],
+          "weaknesses": [
+            "技能栈完全不匹配：职位要求机器学习、C++/Python，而候选人技能为Java后端开发全家桶。",
+            "工作经验领域完全不符：职位要求广告平台、机器学习算法经验，而候选人经验为电商交易和支付系统后端开发。",
+            "工作年限严重不足：职位要求8年以上经验，候选人仅有约2年全职工作经验。",
+            "教育背景不达标：职位要求博士学位，候选人为学士学位。",
+            "缺乏任何与广告算法（如点击率预估、受众定向）或高级算法（如因果推断、联邦学习）相关的经验。"
+          ],
+          "suggestions": [
+            "该简历与职位要求几乎完全不匹配，建议不考虑。候选人的背景更适合Java后端开发岗位。",
+            "如果候选人希望转向机器学习算法领域，建议：1. 系统学习Python和机器学习基础知识，包括相关数学原理。2. 学习广告、推荐系统领域的专业知识，如点击率预估模型。3. 通过在线课程、开源项目或公司内部转岗积累实际项目经验。4. 考虑深造，攻读相关专业的硕士或博士学位，以满足高级算法岗位的学历门槛。"
+          ]
+        },
+        "time_taken": 17.542872190475464,
+        "is_reasonable": true
+      },
+      {
+        "jd_id": 1,
+        "resume_id": 2,
+        "jd_title": "资深机器学习算法工程师 - 广告平台",
+        "resume_name": "王五",
+        "match_data": {
+          "match_score": {
+            "overall": 10,
+            "skill_match": 15,
+            "experience_match": 5,
+            "education_match": 40
+          },
+          "strengths": [
+            "在腾讯公司有工作经验，熟悉公司文化和环境。",
+            "具备Python和数据分析基础技能，这是算法岗位的入门要求之一。",
+            "项目经验涉及用户数据分析和推荐系统，对数据驱动的产品有一定理解。"
+          ],
+          "weaknesses": [
+            "职业定位完全不符：候选人是产品经理，而招聘岗位是资深的机器学习算法工程师，两者在技能要求、工作内容和职业路径上差异巨大。",
+            "经验严重不符：岗位要求8年以上经验或博士学历，而候选人是硕士学历且工作经验年限很短，远未达到要求。",
+            "核心技能严重缺失：简历中完全没有提及岗位要求的机器学习、点击率预估、C++、因果推断、联邦学习等核心技术栈。",
+            "行业背景不符：缺乏广告投放系统相关的经验，而这是岗位的核心业务领域。"
+          ],
+          "suggestions": [
+            "由于职业方向和资历差距巨大，不建议申请此高级职位。这更像是一个职业转换，而非简单的职位申请。",
+            "若候选人未来有志于转向算法工程师岗位，建议从初级算法岗位开始积累经验，并系统性地学习机器学习、深度学习、C++等核心技能。",
+            "针对简历本身，如果想体现与算法的关联性，可以在项目经验中更具体地描述数据分析工作，例如使用了哪些模型或工具进行用户画像分析，即使是基础模型也应写明。"
+          ]
+        },
+        "time_taken": 21.414613723754883,
+        "is_reasonable": true
+      },
+      {
+        "jd_id": 1,
+        "resume_id": 3,
+        "jd_title": "资深机器学习算法工程师 - 广告平台",
+        "resume_name": "赵六",
+        "match_data": {
+          "match_score": {
+            "overall": 5,
+            "skill_match": 5,
+            "experience_match": 0,
+            "education_match": 20
+          },
+          "strengths": [
+            "具备Python技能，是职位要求的语言之一。",
+            "毕业于知名院校武汉大学的计算机科学专业，具备良好的计算机基础。",
+            "具备大型互联网公司（快手、拼多多）高并发系统的后端开发经验，工程实践能力较强。"
+          ],
+          "weaknesses": [
+            "技能严重不匹配：简历中完全没有提及机器学习、点击率预估、转化率优化、广告系统、因果推断等任何一项核心技能，主要技能栈为Go后端开发，与职位要求的机器学习算法方向差异巨大。",
+            "经验年限和层级严重不符：职位要求8年以上经验的资深工程师，而候选人仅有约1年全职工作经验，为初级工程师。",
+            "工作内容和领域完全不符：候选人的经验在于用户管理和内容分发系统的后端开发，而职位专注于广告平台的机器学习算法研发。",
+            "教育背景不符：职位要求博士学位，候选人为学士学位，差距较大。",
+            "编程语言不匹配：职位要求精通C++/Python，而候选人核心经验在Go语言，简历中未体现C++能力和Python项目经验。"
+          ],
+          "suggestions": [
+            "明确职业定位：当前的简历画像是后端开发工程师，与该资深机器学习算法岗位的要求完全不同。建议优先申请与自身背景相符的后端开发（Go方向）岗位，匹配度会高很多。",
+            "长期发展建议（如希望转向算法岗）：需要系统性地学习机器学习理论，包括深度学习、统计学习等基础知识。",
+            "积累算法实践经验：可以通过在线课程、个人项目或参与Kaggle等数据科学竞赛，着手实践点击率预估、推荐系统等相关项目，并将项目经验量化地体现在简历中。",
+            "提升学历背景：顶尖的算法岗位通常对学历有较高要求，考虑攻读机器学习或相关领域的硕士或博士学位，将是重要的加分项。"
+          ]
+        },
+        "time_taken": 25.65309429168701,
+        "is_reasonable": true
+      },
+      {
+        "jd_id": 1,
+        "resume_id": 4,
+        "jd_title": "资深机器学习算法工程师 - 广告平台",
+        "resume_name": "钱七",
+        "match_data": {
+          "match_score": {
+            "overall": 20,
+            "skill_match": 25,
+            "experience_match": 10,
+            "education_match": 40
+          },
+          "strengths": [
+            "教育背景扎实，毕业于中国科学院大学，主修人工智能，具备良好的理论基础。",
+            "熟练掌握Python及主流机器学习框架PyTorch，拥有前沿领域的项目经验，如大语言模型（LLM）和多模态模型。",
+            "具备在头部AI公司（商汤、旷视）的工作和实习经验，展现了较强的算法研究与工程实践能力。"
+          ],
+          "weaknesses": [
+            "工作经验严重不符：职位要求8年以上经验，而候选人全职工作经验不足1年，属于初级工程师范畴，与“资深”定位差距巨大。",
+            "领域经验不匹配：职位核心是广告平台（点击率预估、转化率优化、受众定向），而候选人的经验集中在自然语言处理（NLP）和计算机视觉（CV），缺乏广告算法相关经验。",
+            "关键技能缺失：职位要求精通C++，并优先考虑熟悉因果推断、联邦学习的候选人，这些技能在简历中均未体现。",
+            "教育背景未完全满足：职位要求博士学位或8年以上经验，候选人为硕士学历且经验年限不足，不满足任一条件。"
+          ],
+          "suggestions": [
+            "职业定位调整：建议候选人将求职目标调整为初级或中级的机器学习算法工程师岗位，特别是NLP或AIGC方向，会更具竞争力。",
+            "补充领域知识：若对广告领域感兴趣，建议通过在线课程、Kaggle竞赛或个人项目等方式，学习并实践点击率预估、推荐系统等相关技术，积累领域知识。",
+            "拓展技术栈：根据目标岗位的要求，学习C++以满足高性能计算的需求。同时，可以关注因果推断等前沿技术在推荐、广告领域的应用，提升技术深度。",
+            "简历内容优化：在未来的求职中，可以尝试将现有项目经验与目标岗位的需求进行关联。例如，在做对话系统时，如果涉及到用户意图识别或行为预测，可以突出这部分与“用户理解”或“转化预测”的关联性。"
+          ]
+        },
+        "time_taken": 22.989282846450806,
+        "is_reasonable": true
+      },
+      {
+        "jd_id": 1,
+        "resume_id": 5,
+        "jd_title": "资深机器学习算法工程师 - 广告平台",
+        "resume_name": "孙八",
+        "match_data": {
+          "match_score": {
+            "overall": 2,
+            "skill_match": 5,
+            "experience_match": 0,
+            "education_match": 5
+          },
+          "strengths": [
+            "具备AB测试和转化率优化的项目经验，体现了数据驱动的业务思维。",
+            "拥有在大型互联网公司（美团、饿了么）的工作背景。",
+            "熟悉产品设计和用户增长，对业务指标有一定理解。"
+          ],
+          "weaknesses": [
+            "职业背景完全不符：候选人是产品经理，而职位是资深机器学习算法工程师，角色定位存在根本性差异。",
+            "核心技术技能严重缺失：简历中未体现任何机器学习、C++、Python、因果推断、联邦学习等JD要求的核心技术能力。",
+            "工作经验年限和领域严重不符：仅有约3年产品经验，远未达到职位要求的8年及以上相关算法经验。且经验集中在外卖领域，而非广告平台。",
+            "学历背景不符：本科学历与职位要求的博士学历差距巨大。"
+          ],
+          "suggestions": [
+            "鉴于职业方向和技能栈完全不同，该简历与当前职位的匹配度极低，不建议投递。",
+            "建议候选人专注于寻找产品经理、产品运营或偏业务的数据分析师岗位，这些岗位更能发挥其现有经验和技能优势。",
+            "如果候选人未来有强烈的意愿转型算法工程师，需要进行长期的、系统性的职业规划和学习。包括但不限于：攻读计算机科学/人工智能相关专业的硕士或博士学位；系统学习并精通Python/C++编程；深入学习机器学习理论和实践，并完成相关项目来构建技术作品集；从初级算法岗位开始积累经验。"
+          ]
+        },
+        "time_taken": 21.366761922836304,
+        "is_reasonable": true
+      },
+      {
+        "jd_id": 1,
+        "resume_id": 6,
+        "jd_title": "资深机器学习算法工程师 - 广告平台",
+        "resume_name": "周九",
+        "match_data": {
+          "match_score": {
+            "overall": 10,
+            "skill_match": 15,
+            "experience_match": 5,
+            "education_match": 20
+          },
+          "strengths": [
+            "掌握C++编程语言，这是职位要求的技能之一。",
+            "具备高性能服务器开发经验（MMORPG游戏服务器），与广告系统所需的高并发、高性能有微弱关联。",
+            "拥有在腾讯、网易等顶尖互联网公司的工作/实习背景，表明其具备较强的工程能力基础。"
+          ],
+          "weaknesses": [
+            "经验领域完全不匹配：候选人经验集中在游戏服务器后端开发，而职位要求的是广告平台的机器学习算法方向。",
+            "核心技能严重缺失：简历中未体现任何机器学习、点击率预估、转化率优化、受众定向等算法能力，也未提及Python语言，这些都是职位的核心要求。",
+            "经验年限远未达标：职位要求“8年以上相关经验”，而候选人仅有约1-2年的工作经验，且非相关领域经验，属于初级水平，与“资深”定位差距巨大。",
+            "教育背景不满足要求：职位要求“博士学位或8年以上相关经验”，候选人为硕士学历且经验年限不足，不满足任一条件。",
+            "项目经验不相关：简历中的项目经验均为游戏后端系统，与广告投放、算法模型完全无关，无法证明其在目标领域的能力。"
+          ],
+          "suggestions": [
+            "由于专业领域、经验水平和技能栈与职位要求差距过大，建议候选人考虑申请更匹配自身背景的C++游戏服务器开发或通用后端开发岗位。",
+            "若候选人强烈希望转向机器学习算法领域，建议从以下方面入手：",
+            "1. 系统学习机器学习理论，特别是广告领域常用的点击率/转化率预估、推荐系统、因果推断等知识。",
+            "2. 熟练掌握Python语言及其相关库（如Pandas, NumPy, Scikit-learn, TensorFlow/PyTorch）。",
+            "3. 通过在线课程、Kaggle竞赛或个人项目，积累广告点击率预估等相关的实践经验，并将其体现在简历中。",
+            "4. 调整求职目标，从初级机器学习算法工程师岗位开始，逐步积累行业经验，而非直接申请资深职位。"
+          ]
+        },
+        "time_taken": 23.780215740203857,
+        "is_reasonable": true
+      },
+      {
+        "jd_id": 1,
+        "resume_id": 7,
+        "jd_title": "资深机器学习算法工程师 - 广告平台",
+        "resume_name": "吴十",
+        "match_data": {
+          "match_score": {
+            "overall": 5,
+            "skill_match": 0,
+            "experience_match": 5,
+            "education_match": 10
+          },
+          "strengths": [
+            "在大型互联网公司（拼多多、京东）有工作经验，了解电商业务模式。",
+            "具备产品经理视角，有通过A/B测试提升用户转化率的经验，对业务增长有概念。",
+            "具备基本的数据分析和商业分析能力。"
+          ],
+          "weaknesses": [
+            "职业背景严重不符：简历为产品经理，而职位是资深机器学习算法工程师，角色定位完全不同。",
+            "技能完全不匹配：职位要求的机器学习、点击率预估、C++、Python等核心技能，简历中均未体现。",
+            "工作经验年限和领域不符：职位要求8年以上算法相关经验，而简历只有约2年产品经理经验。",
+            "教育背景不符：职位要求博士学位，而简历为经济学学士学位，学历和专业都不满足要求。",
+            "缺乏广告领域知识：简历中没有提及任何与广告投放系统、受众定向等相关的经验。"
+          ],
+          "suggestions": [
+            "职业定位调整：该简历与目标职位严重不符，建议投递产品经理或商业分析相关的职位，而非算法工程师。",
+            "若要转向算法方向：需要进行系统性的、长期的学习和转型。建议从以下方面入手：",
+            "1. 补充计算机科学和数学基础。",
+            "2. 深入学习编程语言，特别是Python和C++。",
+            "3. 系统学习机器学习、深度学习理论，并专注于计算广告、推荐系统等领域。",
+            "4. 攻读计算机或数据科学相关的硕士或博士学位，以弥补教育背景的不足。",
+            "5. 通过个人项目或参与开源项目积累实际的算法开发经验。"
+          ]
+        },
+        "time_taken": 20.275855779647827,
+        "is_reasonable": true
+      },
+      {
+        "jd_id": 1,
+        "resume_id": 8,
+        "jd_title": "资深机器学习算法工程师 - 广告平台",
+        "resume_name": "郑十一",
+        "match_data": {
+          "match_score": {
+            "overall": 35,
+            "skill_match": 40,
+            "experience_match": 20,
+            "education_match": 60
+          },
+          "strengths": [
+            "拥有斯坦福大学和卡内基梅隆大学的顶尖教育背景，学术基础扎实。",
+            "精通职位要求的核心编程语言C++和Python。",
+            "具备在特斯拉和Google Brain等顶级公司处理复杂AI系统的工作经验，证明了其高水平的技术能力。",
+            "熟悉PyTorch、TensorFlow等主流机器学习框架，具备很强的通用AI算法能力。"
+          ],
+          "weaknesses": [
+            "工作经验与职位要求严重不符。候选人经验集中在自动驾驶和机器人领域，而职位要求的是广告平台相关经验。",
+            "技能栈不匹配。缺乏点击率预估(CTR)、转化率优化(CVR)、受众定向、广告投放系统等核心领域技能和知识。",
+            "工作年限不足。候选人约有4年工作经验，远低于职位要求的8年以上。",
+            "教育背景未完全满足要求。职位要求博士学位，而候选人为硕士学位（尽管JD提到可用8年经验替代，但候选人年限也不足）。"
+          ],
+          "suggestions": [
+            "在简历中增加一个“个人总结”部分，主动说明为何希望从自动驾驶领域转向广告领域，并强调自身快速学习能力和对新领域的兴趣。",
+            "深入挖掘过往经验中可迁移至广告领域的技能和项目。例如，是否处理过大规模实时数据、是否进行过用户行为预测（即使不是在广告场景下）、强化学习在推荐或策略优化上的应用等，并对此进行重点描述。",
+            "针对性地学习和补充广告领域的知识，例如通过在线课程、Kaggle竞赛或个人项目来实践CTR/CVR预估模型，并将这些成果写入简历。",
+            "在技能列表中，可以尝试将现有技能与广告领域关联，例如，可以将“强化学习”具体化为“强化学习在动态定价与推荐系统中的应用”，以展示对职位领域的思考。"
+          ]
+        },
+        "time_taken": 24.88174080848694,
+        "is_reasonable": true
+      },
+      {
+        "jd_id": 1,
+        "resume_id": 9,
+        "jd_title": "资深机器学习算法工程师 - 广告平台",
+        "resume_name": "冯十二",
+        "match_data": {
+          "match_score": {
+            "overall": 5,
+            "skill_match": 0,
+            "experience_match": 5,
+            "education_match": 0
+          },
+          "strengths": [
+            "具备互联网行业（小红书）从业经验，了解内容社区和用户运营，这对于理解广告业务的终端场景有一定帮助。",
+            "项目经验中提及ROI提升和用户增长，表明候选人具备一定的业务和数据导向思维。"
+          ],
+          "weaknesses": [
+            "教育背景完全不符：职位要求博士学位或8年以上相关经验，候选人为市场营销学士，专业方向和学历层次均不匹配。",
+            "技能栈完全不匹配：简历中无一技能与职位要求的机器学习、C++、Python、点击率预估、因果推断等核心技术能力相符。",
+            "工作经验领域完全不同：候选人的经验集中在市场营销和产品运营，而职位是资深机器学习算法研发岗，两者不存在关联性。",
+            "工作经验年限严重不足：职位要求8年以上相关经验，候选人当前工作经验约3年，且为非相关领域经验。"
+          ],
+          "suggestions": [
+            "该简历与职位要求存在根本性差异，不建议投递。候选人与岗位的匹配度极低。",
+            "若候选人有强烈的意愿转向机器学习算法领域，建议从基础开始，例如攻读计算机或相关专业的硕士/博士学位，系统学习编程（Python/C++）、数据结构、算法和机器学习理论。",
+            "可以考虑利用现有优势，寻找与广告行业相关的、但非技术研发的岗位，如广告产品经理、广告策略运营等，作为未来转型的跳板。"
+          ]
+        },
+        "time_taken": 35.83654999732971,
+        "is_reasonable": true
+      },
+      {
+        "jd_id": 2,
+        "resume_id": 0,
+        "jd_title": "NLP算法工程师 - 搜索",
+        "resume_name": "张三",
+        "match_data": {
+          "match_score": {
+            "overall": 95,
+            "skill_match": 95,
+            "experience_match": 95,
+            "education_match": 100
+          },
+          "strengths": [
+            "教育背景高度匹配：拥有JD明确要求的计算机科学硕士学位，且毕业于顶尖学府（清华大学）。",
+            "核心经验高度相关：曾在百度担任AI算法工程师（2021-2024），直接参与“搜索NLP核心技术研发”，包括“文本匹配”和“信息抽取”，与职位职责完全一致。",
+            "满足工作年限要求：拥有3年直接相关的搜索NLP经验，满足“3年以上”的要求。",
+            "关键技术栈匹配：项目经验中明确提到研发基于“Transformer”的“中文语义理解模型”，并应用于“搜索”，精准覆盖JD中的核心技术要求。",
+            "具备优先条件：简历清晰表明拥有JD中明确提出的“搜索引擎相关经验者优先”的背景。"
+          ],
+          "weaknesses": [
+            "特定模型关键词缺失：简历中虽然提到了更上位的Transformer，但未明确提及JD中并列的“BERT”模型。",
+            "当前工作领域偏差：当前在字节跳动的工作内容是“推荐系统”，而非“搜索引擎”，可能会让招聘方对候选人当前的技术重心和求职动机产生少量疑问。"
+          ],
+          "suggestions": [
+            "补充关键词：在技能列表或项目经验描述中，如果实际使用过，建议明确补充“BERT”等具体模型名称，使简历与JD的关键词匹配更直接。例如，可将项目描述修改为“研发基于Transformer（如BERT等）的中文语义理解模型”。",
+            "突出求职动机：在面试或求职信中，可以主动说明为何希望从推荐领域回归搜索领域，强调对搜索技术的长期兴趣和过往的深厚积累，以打消招聘方对职业方向转变的顾虑。",
+            "量化过往业绩：在百度的工作经验中，可以尝试增加量化指标来描述“参与搜索NLP核心技术研发”的成果，例如“通过XX模型优化，将文本匹配准确率提升了Y%”，以更好地展现个人贡献。"
+          ]
+        },
+        "time_taken": 22.44729995727539,
+        "is_reasonable": true
+      },
+      {
+        "jd_id": 2,
+        "resume_id": 1,
+        "jd_title": "NLP算法工程师 - 搜索",
+        "resume_name": "李四",
+        "match_data": {
+          "match_score": {
+            "overall": 5,
+            "skill_match": 0,
+            "experience_match": 5,
+            "education_match": 40
+          },
+          "strengths": [
+            "拥有顶尖互联网公司（阿里巴巴）的工作经验，证明了候选人具备较强的工程实践能力和适应高压工作环境的能力。",
+            "具备高并发、分布式系统的开发经验，在系统设计和性能优化方面有扎实的基础。"
+          ],
+          "weaknesses": [
+            "技能栈完全不匹配：职位要求NLP、语义理解、Transformer、BERT等AI算法技能，而候选人的技能均为Java后端开发相关，无一匹配。",
+            "工作经验领域不符：职位要求NLP算法或搜索引擎相关经验，而候选人的经验为电商和支付领域的后端开发，与职位要求的核心领域完全不同。",
+            "工作经验年限不足：职位要求3年以上经验，候选人从2022年开始工作，实际工作经验约2年，未达到要求。",
+            "教育背景不符：职位要求计算机科学硕士学历，而候选人为软件工程学士学历，未达到学历要求。"
+          ],
+          "suggestions": [
+            "职位方向调整：鉴于当前技能和经验与该NLP算法岗位的差距巨大，建议候选人考虑投递更匹配的Java后端开发或系统架构方向的职位。",
+            "长期职业转型建议：如果候选人立志转向NLP领域，需要进行系统性的学习和实践。建议：",
+            "1. 攻读计算机科学相关专业的硕士学位，主攻自然语言处理方向。",
+            "2. 系统学习机器学习、深度学习、NLP核心理论，并通过线上课程（如Coursera、Udacity）和经典书籍进行知识补充。",
+            "3. 动手实践NLP项目，例如参加Kaggle竞赛、复现经典模型（如BERT）、开发个人NLP应用，并将这些项目经验体现在简历中。",
+            "4. 尝试在当前公司内部寻找与AI/ML/NLP相关的项目机会或转岗机会，以获取宝贵的工业界实践经验。"
+          ]
+        },
+        "time_taken": 20.8879292011261,
+        "is_reasonable": true
+      },
+      {
+        "jd_id": 2,
+        "resume_id": 2,
+        "jd_title": "NLP算法工程师 - 搜索",
+        "resume_name": "王五",
+        "match_data": {
+          "match_score": {
+            "overall": 10,
+            "skill_match": 5,
+            "experience_match": 5,
+            "education_match": 60
+          },
+          "strengths": [
+            "拥有名校硕士学历背景（上海交通大学）。",
+            "具备在顶级互联网公司（腾讯、美团）的工作/实习经验。",
+            "掌握Python和SQL等基础数据处理技能。"
+          ],
+          "weaknesses": [
+            "职业方向完全不匹配：职位要求为NLP算法工程师，而候选人是产品经理，工作内容、职责、所需技能完全不同。",
+            "核心技能严重缺失：简历中完全没有提及职位要求的NLP、语义理解、文本匹配、信息抽取、Transformer、BERT等核心算法和模型技能。",
+            "工作经验不符：候选人无任何算法研发或工程经验，均为产品管理相关经验，且工作年限不满足“3年以上”的要求。",
+            "教育背景不完全匹配：职位要求为计算机科学硕士，而候选人专业为电子工程，虽是相关领域，但并非直接对口。",
+            "项目经验不相关：项目经验集中在产品需求、原型设计和用户分析，而非算法实现、模型训练或技术研发。"
+          ],
+          "suggestions": [
+            "明确职业方向：该简历与NLP算法工程师岗位几乎无匹配度，建议候选人投递与其背景和经验更相符的产品经理岗位。",
+            "若想转向算法岗位：这是一个巨大的职业转型，需要系统性地学习和实践。建议从以下几点入手：",
+            "1. 学习核心课程：系统学习计算机科学、机器学习、深度学习、自然语言处理等专业知识。",
+            "2. 动手实践：通过线上课程、个人项目或参加Kaggle等竞赛，亲手实现和训练NLP模型（如BERT、Transformer），积累实际项目经验。",
+            "3. 调整简历：在具备相关技能和项目经验后，应在简历中突出展示相关的技术栈、项目成果和对NLP领域的理解，而不是当前的产品管理经验。",
+            "4. 考虑初级或实习岗位：由于缺乏专业经验，可以从算法实习生或初级工程师岗位开始，积累行业经验。"
+          ]
+        },
+        "time_taken": 19.966820001602173,
+        "is_reasonable": true
+      },
+      {
+        "jd_id": 2,
+        "resume_id": 3,
+        "jd_title": "NLP算法工程师 - 搜索",
+        "resume_name": "赵六",
+        "match_data": {
+          "match_score": {
+            "overall": 10,
+            "skill_match": 5,
+            "experience_match": 0,
+            "education_match": 50
+          },
+          "strengths": [
+            "教育背景为计算机科学，与职位要求的基础学科一致。",
+            "具备Python编程能力，是NLP领域常用的编程语言之一。"
+          ],
+          "weaknesses": [
+            "技能栈完全不匹配：简历中展示的是Go后端开发、微服务、容器化等技能，完全缺乏职位要求的NLP、语义理解、Transformer、BERT等核心算法技能。",
+            "工作经验领域不符：所有工作和实习经验均在后端开发领域，负责内容分发和秒杀系统，没有NLP算法或搜索引擎相关的研发经验。",
+            "工作年限不满足要求：职位要求3年以上NLP经验，而候选人总工作经验不足2年，且均为非相关经验。",
+            "学历不达标：职位要求计算机科学硕士，而候选人为学士学位。"
+          ],
+          "suggestions": [
+            "明确职业方向：该简历与职位匹配度极低，建议候选人投递与其技能和经验相符的后端开发岗位。",
+            "如计划转向NLP方向：建议通过攻读相关方向的硕士学位，或系统性地学习NLP理论知识（如通过在线课程），并动手实践NLP项目（例如，使用BERT进行文本分类、搭建简易检索引擎），将项目经验写入简历。",
+            "针对性修改简历：在积累了NLP相关经验后，应在简历中突出展示NLP项目、掌握的算法模型（Transformer, BERT等）以及相关的研究或成果，而不是罗列不相关的后端技能。",
+            "调整求职目标：应从初级或实习的NLP算法岗位开始投递，而不是直接申请要求3年以上经验的资深岗位。"
+          ]
+        },
+        "time_taken": 22.42886710166931,
+        "is_reasonable": true
+      },
+      {
+        "jd_id": 2,
+        "resume_id": 4,
+        "jd_title": "NLP算法工程师 - 搜索",
+        "resume_name": "钱七",
+        "match_data": {
+          "match_score": {
+            "overall": 65,
+            "skill_match": 70,
+            "experience_match": 50,
+            "education_match": 100
+          },
+          "strengths": [
+            "教育背景高度匹配：拥有中国科学院大学的人工智能硕士学位，与职位要求的计算机科学硕士背景非常契合，且学校背景优秀。",
+            "掌握核心NLP模型：简历中明确提及掌握Transformer模型和大型语言模型（LLM）的经验，这与JD中要求的Transformer、BERT等模型技术栈相符。",
+            "具备前沿NLP项目经验：拥有大模型文本生成和智能对话机器人的项目经验，表明候选人具备将NLP技术落地的能力，并紧跟技术前沿。"
+          ],
+          "weaknesses": [
+            "工作经验年限不足：JD要求3年以上NLP经验，而候选人的全职工作经验从2023年开始，年限上存在明显差距。",
+            "核心领域经验不符：JD的核心要求是搜索相关的“语义理解”、“文本匹配”、“信息抽取”。而候选人的经验主要集中在“文本生成”和“对话系统”，缺乏搜索和匹配方向的直接项目或工作经验。",
+            "缺乏搜索引擎背景：JD明确提出“有搜索引擎相关经验者优先”，简历中未体现任何与搜索引擎直接相关的经验，这是一个优先项的缺失。",
+            "关键技能词汇缺失：简历中未直接提及JD中要求的“语义理解”、“文本匹配”、“信息抽取”、“BERT”等具体技能关键词。"
+          ],
+          "suggestions": [
+            "针对性强化项目描述：在“智能对话机器人”项目中，可以更详细地描述其中涉及的“语义理解”（如意图识别）和“信息匹配”（如从知识库检索答案）的技术细节，以贴近JD中的“语义理解”和“文本匹配”要求。",
+            "补充和细化技能列表：在技能部分明确列出对BERT模型的了解程度，并补充“语义理解”、“文本匹配”等关键词。如果经验属实，可以说明在LLM的研究中也深入接触了这些基础任务。",
+            "突出经验的可迁移性：在求职信或面试中，主动阐述如何将文本生成和对话系统的经验迁移到搜索领域，例如，利用生成模型改进搜索摘要，或利用对话系统中的问答技术提升搜索的直接问答能力。",
+            "量化项目成果：在项目描述中增加可量化的指标，例如对话机器人的准确率、多模态模型的生成效果评估分数等，以更直观地展示技术能力和项目影响力。"
+          ]
+        },
+        "time_taken": 24.29595184326172,
+        "is_reasonable": true
+      },
+      {
+        "jd_id": 2,
+        "resume_id": 5,
+        "jd_title": "NLP算法工程师 - 搜索",
+        "resume_name": "孙八",
+        "match_data": {
+          "match_score": {
+            "overall": 5,
+            "skill_match": 0,
+            "experience_match": 0,
+            "education_match": 20
+          },
+          "strengths": [
+            "在大型互联网公司（美团、饿了么）有工作经验，熟悉快节奏的业务环境。",
+            "具备数据分析、SQL和AB测试的经验，体现了一定的数据驱动工作方式。"
+          ],
+          "weaknesses": [
+            "职业方向完全不匹配：应聘者是产品经理，而招聘职位是NLP算法工程师，属于完全不同的职业路径。",
+            "核心技能完全缺失：简历中未体现任何与NLP、语义理解、文本匹配、信息抽取、Transformer、BERT等相关的技术能力。",
+            "工作经验完全不符：3年工作经验为产品经理经验，而非职位要求的3年以上NLP算法经验。项目经验也集中在产品转化和用户体系设计，与算法研发无关。",
+            "教育背景不达标：职位要求计算机科学硕士，而应聘者为信息管理与信息系统学士，学历和专业均不符合要求。"
+          ],
+          "suggestions": [
+            "此简历与职位要求存在根本性差异，属于完全不匹配。建议应聘者投递更符合其背景的产品经理或产品运营类职位。",
+            "如果候选人希望转向NLP算法工程师岗位，需要进行系统的职业转型规划。建议：1. 攻读计算机科学（特别是AI或NLP方向）的硕士学位以弥补教育背景的不足。2. 通过在线课程、开源项目等方式，从零开始系统学习Python编程、机器学习、深度学习以及NLP领域的专业知识和模型（如Transformer）。3. 积累实际的算法项目经验，哪怕是个人项目，并将其体现在简历上，才有可能获得入门级算法岗位的面试机会。"
+          ]
+        },
+        "time_taken": 19.03572702407837,
+        "is_reasonable": true
+      },
+      {
+        "jd_id": 2,
+        "resume_id": 6,
+        "jd_title": "NLP算法工程师 - 搜索",
+        "resume_name": "周九",
+        "match_data": {
+          "match_score": {
+            "overall": 15,
+            "skill_match": 5,
+            "experience_match": 5,
+            "education_match": 90
+          },
+          "strengths": [
+            "教育背景优秀，为华中科技大学软件工程硕士，与职位要求的计算机科学硕士高度相关。",
+            "具备扎实的后端开发基础，如C++, Linux, 高性能服务器开发经验，在工程能力上有一定优势。"
+          ],
+          "weaknesses": [
+            "技能栈严重不匹配：简历中完全没有提及职位要求的核心技能，如NLP、语义理解、文本匹配、Transformer、BERT等。",
+            "工作经验领域完全不符：候选人的经验集中在游戏服务器开发，而职位要求的是NLP算法和搜索引擎领域。",
+            "工作经验年限不达标：职位要求3年以上NLP算法经验，而候选人工作经验年限不足，且非相关领域。",
+            "项目经验不相关：所有项目经验均为游戏后端开发，与NLP和搜索技术无任何关联。"
+          ],
+          "suggestions": [
+            "系统学习NLP知识：建议候选人系统学习自然语言处理的基础理论，包括但不限于语义理解、信息抽取等，并掌握Transformer、BERT等前沿模型。",
+            "增加NLP项目经验：通过参与开源项目、在线课程项目或个人项目，积累使用NLP技术解决实际问题的经验，并将其体现在简历中。",
+            "调整求职目标：当前简历更适合后端开发岗位。若想转向NLP领域，建议从初级岗位或实习开始，积累相关经验后再挑战对经验要求较高的职位。",
+            "突出相关技能（如有）：如果在校期间有接触过任何机器学习或NLP相关的课程或项目，应在简历中明确突出，以弥补工作经验的不足。"
+          ]
+        },
+        "time_taken": 17.49367880821228,
+        "is_reasonable": true
+      },
+      {
+        "jd_id": 2,
+        "resume_id": 7,
+        "jd_title": "NLP算法工程师 - 搜索",
+        "resume_name": "吴十",
+        "match_data": {
+          "match_score": {
+            "overall": 5,
+            "skill_match": 0,
+            "experience_match": 0,
+            "education_match": 0
+          },
+          "strengths": [
+            "候选人拥有在大型知名互联网公司（拼多多、京东）的工作经验，对互联网产品和商业运作有一定理解。"
+          ],
+          "weaknesses": [
+            "教育背景严重不符：职位要求计算机科学硕士，候选人为经济学学士，专业和学历层次均不匹配。",
+            "技能完全不符：职位要求NLP、Transformer、BERT等专业算法技能，候选人具备的是产品、运营和商业分析相关技能，无一匹配。",
+            "工作经验完全不符：职位要求3年以上NLP算法经验，候选人为2年产品经理经验，角色、领域和年限均不满足要求。",
+            "项目经验不相关：候选人的项目经验集中在电商的增长和策略层面，与搜索引擎和NLP技术研发无关。"
+          ],
+          "suggestions": [
+            "由于候选人当前背景与该职位要求存在巨大鸿沟，不建议投递。这是一个根本性的职业方向错配。",
+            "建议候选人专注于与其背景更匹配的岗位，如互联网产品经理、产品运营、商业/数据分析师等。",
+            "如果候选人希望转向NLP算法工程师方向，需要进行系统的职业转型规划：首先，需要攻读计算机科学相关的硕士学位，并主修人工智能/NLP方向；其次，通过课程、项目、开源贡献等方式，系统学习并实践NLP、深度学习、Transformer等核心技术；最后，从实习或初级算法岗位开始积累相关工作经验。"
+          ]
+        },
+        "time_taken": 20.57959818840027,
+        "is_reasonable": true
+      },
+      {
+        "jd_id": 2,
+        "resume_id": 8,
+        "jd_title": "NLP算法工程师 - 搜索",
+        "resume_name": "郑十一",
+        "match_data": {
+          "match_score": {
+            "overall": 35,
+            "skill_match": 15,
+            "experience_match": 25,
+            "education_match": 100
+          },
+          "strengths": [
+            "教育背景优秀：毕业于卡内基梅隆大学（人工智能硕士）和斯坦福大学（计算机科学学士），学历背景远超职位要求。",
+            "工作经验年限达标：拥有超过3年的AI领域工作经验，且就职于特斯拉、Google Brain等顶级科技公司，个人能力突出。",
+            "技术框架基础扎实：熟练掌握Python、PyTorch、TensorFlow等AI领域通用的开发语言和框架。"
+          ],
+          "weaknesses": [
+            "核心技能领域严重不匹配：简历中展示的技能集中在强化学习、机器人和自动驾驶，与职位要求的NLP核心技能（语义理解、文本匹配、信息抽取、Transformer、BERT）完全不符。",
+            "工作经验方向不符：过往工作经验集中在自动驾驶和机器人控制，缺乏职位所要求的NLP算法研发或搜索引擎相关经验，这是一个根本性的不匹配。",
+            "项目经验不相关：所有项目经验均为自动驾驶和机器人领域，未能体现任何与NLP或搜索相关的实践能力。"
+          ],
+          "suggestions": [
+            "调整求职方向：鉴于候选人优秀的背景与该职位方向差距巨大，建议优先考虑自动驾驶、机器人、强化学习等高度相关的职位，匹配度会高得多。",
+            "补充NLP项目经验：如果希望转向NLP领域，建议增加个人NLP项目（如文本匹配、信息抽取、情感分析等），并应用Transformer、BERT等模型，将项目经验写入简历。",
+            "突出任何可能的NLP相关性：回顾过往经历，如果自动驾驶的感知或决策模块中曾用到任何自然语言处理或文本理解的技术，应在简历中进行突出和量化描述。",
+            "更新技能列表：在具备实际项目经验的基础上，将NLP、Transformer、BERT等关键词添加到技能列表中，以通过初步筛选。"
+          ]
+        },
+        "time_taken": 24.888880252838135,
+        "is_reasonable": true
+      },
+      {
+        "jd_id": 2,
+        "resume_id": 9,
+        "jd_title": "NLP算法工程师 - 搜索",
+        "resume_name": "冯十二",
+        "match_data": {
+          "match_score": {
+            "overall": 1,
+            "skill_match": 0,
+            "experience_match": 0,
+            "education_match": 0
+          },
+          "strengths": [
+            "无明显优势。该简历与职位要求完全不匹配。"
+          ],
+          "weaknesses": [
+            "教育背景不符：职位要求计算机科学硕士，候选人为市场营销学士。",
+            "工作经验领域完全不符：职位要求3年以上NLP算法经验，候选人经验为产品运营和市场营销，无任何技术研发背景。",
+            "技能缺失：候选人完全不具备职位要求的NLP、语义理解、Transformer、BERT、搜索引擎等核心技术技能。",
+            "行业经验不符：职位要求搜索引擎相关经验，候选人经验在社交媒体和美妆电商领域，与搜索技术无关。"
+          ],
+          "suggestions": [
+            "由于职业方向完全不同，该简历不适合投递此职位。这是一个根本性的不匹配，而非简单的简历优化问题。",
+            "如果候选人希望转向NLP算法工程师方向，建议：",
+            "1. 攻读计算机科学或相关领域的硕士学位，系统学习计算机基础和人工智能知识。",
+            "2. 通过在线课程（如Coursera, edX）和自学，掌握Python编程、数据结构与算法、机器学习、深度学习以及NLP核心技术（如Transformer, BERT）。",
+            "3. 动手实践，完成多个与NLP相关的个人项目（如文本分类、情感分析、信息抽取等），并建立自己的GitHub作品集。",
+            "4. 在具备基础知识和项目经验后，尝试申请NLP相关的实习或初级职位，从头开始积累行业经验。"
+          ]
+        },
+        "time_taken": 16.818188190460205,
+        "is_reasonable": true
+      },
+      {
+        "jd_id": 3,
+        "resume_id": 0,
+        "jd_title": "AI芯片架构师",
+        "resume_name": "张三",
+        "match_data": {
+          "match_score": {
+            "overall": 10,
+            "skill_match": 15,
+            "experience_match": 5,
+            "education_match": 20
+          },
+          "strengths": [
+            "精通PyTorch、TensorFlow等深度学习框架，满足JD中对深度学习框架的掌握要求。",
+            "拥有AI算法应用层（推荐系统、NLP）的研发经验，对AI模型有深入的软件层面理解。",
+            "教育背景优秀，毕业于清华大学和北京大学，计算机基础扎实。"
+          ],
+          "weaknesses": [
+            "教育背景不符：JD明确要求博士学历，候选人为硕士学历，且专业方向为计算机科学/软件工程，而非JD偏好的微电子或计算机体系结构。",
+            "经验年限严重不足：JD要求10年以上经验，候选人从2021年开始工作，经验年限仅约3年，差距巨大。",
+            "核心技能完全不匹配：简历中完全没有体现JD要求的AI芯片架构设计、NPU指令集、微架构、计算机体系结构等硬件核心技能。",
+            "工作经验领域不符：候选人的经验全部集中在AI算法应用层（推荐系统、NLP），而职位要求的是底层的AI芯片设计与硬件架构，两者属于完全不同的专业领域。"
+          ],
+          "suggestions": [
+            "鉴于候选人的背景（AI软件算法）与该职位（AI硬件架构）存在根本性差异，建议不要申请此职位。",
+            "建议候选人专注于申请与其经验高度匹配的AI算法工程师、机器学习工程师、推荐系统或NLP专家等软件应用层岗位。",
+            "若未来希望转向芯片架构方向，需要进行长期规划，例如攻读计算机体系结构相关专业的博士学位，并从初级岗位开始积累硬件设计（如Verilog/VHDL）、芯片验证、处理器微架构等项目经验。"
+          ]
+        },
+        "time_taken": 23.126573085784912,
+        "is_reasonable": true
+      },
+      {
+        "jd_id": 3,
+        "resume_id": 1,
+        "jd_title": "AI芯片架构师",
+        "resume_name": "李四",
+        "match_data": {
+          "match_score": {
+            "overall": 5,
+            "skill_match": 0,
+            "experience_match": 0,
+            "education_match": 10
+          },
+          "strengths": [
+            "候选人拥有在顶级互联网公司（阿里巴巴）的工作经验，背景优秀。",
+            "具备高并发和分布式系统开发经验，展示了处理复杂软件系统的能力。"
+          ],
+          "weaknesses": [
+            "教育背景完全不符：职位要求为微电子、计算机体系结构等相关专业博士学历，而候选人为软件工程学士。",
+            "工作经验领域完全不匹配：职位要求为AI芯片设计与架构，而候选人的经验为Java后端软件开发，两者属于完全不同的专业领域。",
+            "工作经验年限严重不足：职位要求10年以上经验，候选人仅有约2年全职工作经验。",
+            "核心技能严重缺失：简历中展示的Java、微服务等软件开发技能与职位要求的AI芯片架构、NPU、微架构、深度学习框架等硬件及底层架构技能完全不相关。"
+          ],
+          "suggestions": [
+            "由于专业背景、工作经验和技能与职位要求存在根本性差异，该职位与候选人极不匹配。建议候选人申请与其技能和经验相符的Java后端开发、分布式系统等软件工程师岗位。",
+            "如果候选人有强烈的意愿转向AI芯片架构领域，这是一个重大的职业转型，需要长期的规划和投入。建议从攻读计算机体系结构或微电子方向的硕士或博士学位开始，系统地建立知识体系。",
+            "在简历中，应避免投递与自身专业领域完全无关的职位，以提高求职效率和成功率。"
+          ]
+        },
+        "time_taken": 20.583040952682495,
+        "is_reasonable": true
+      },
+      {
+        "jd_id": 3,
+        "resume_id": 2,
+        "jd_title": "AI芯片架构师",
+        "resume_name": "王五",
+        "match_data": {
+          "match_score": {
+            "overall": 5,
+            "skill_match": 5,
+            "experience_match": 5,
+            "education_match": 30
+          },
+          "strengths": [
+            "毕业于国内顶尖院校（上海交通大学、华中科技大学），专业背景（电子工程、自动化）与硬件领域有基础关联。"
+          ],
+          "weaknesses": [
+            "教育背景严重不符：职位要求博士学历，候选人最高学历为硕士。",
+            "工作经验完全不匹配：职位要求10年以上AI芯片设计经验，而候选人仅有1-2年互联网产品经理经验，工作领域和年限均相差甚远。",
+            "技能栈完全不匹配：职位要求的AI芯片架构、性能优化、NPU、微架构、深度学习框架等硬核技术技能，候选人一项也不具备。其技能均为软件产品管理和数据分析方向。",
+            "行业背景不符：候选人来自互联网软件行业，而职位属于半导体硬件行业，两者之间存在巨大的专业壁垒和知识鸿沟。"
+          ],
+          "suggestions": [
+            "明确职业定位：该职位与候选人当前的职业背景完全不符，属于无效投递。建议候选人专注于与自己技能和经验相匹配的互联网产品经理或数据分析类岗位。",
+            "长期职业转型建议（若有志于此方向）：若候选人希望转向AI芯片领域，需要进行彻底的职业转型规划。这包括：1）攻读计算机体系结构或微电子方向的博士学位；2）从初级的硬件设计/验证工程师岗位开始，积累至少10年的深厚行业经验；3）系统学习芯片设计、深度学习和计算机体系结构等相关知识。",
+            "简历修改建议：对于此职位，任何简历修改都无法弥补背景上的巨大差距，因此不建议为此职位修改简历。"
+          ]
+        },
+        "time_taken": 21.80954599380493,
+        "is_reasonable": true
+      },
+      {
+        "jd_id": 3,
+        "resume_id": 3,
+        "jd_title": "AI芯片架构师",
+        "resume_name": "赵六",
+        "match_data": {
+          "match_score": {
+            "overall": 5,
+            "skill_match": 5,
+            "experience_match": 5,
+            "education_match": 10
+          },
+          "strengths": [],
+          "weaknesses": [
+            "教育背景严重不符：职位要求博士学历，候选人为学士学历。",
+            "工作经验年限严重不足：职位要求10年以上AI芯片设计经验，候选人仅有约1年后端开发经验。",
+            "经验领域完全不匹配：候选人经验为Go后端软件开发（用户管理、内容分发），与职位要求的AI芯片架构设计、微架构、NPU指令集等硬件领域完全无关。",
+            "技能栈完全不匹配：候选人掌握的是后端开发相关技术栈（Go, Kubernetes, Kafka等），完全不具备职位要求的AI芯片架构、计算机体系结构、深度学习框架等核心技能。"
+          ],
+          "suggestions": [
+            "教育提升：若有志于从事芯片架构设计，建议攻读微电子、计算机体系结构等相关方向的硕士乃至博士学位，以满足岗位的基本学历门槛。",
+            "知识体系重构：系统学习计算机体系结构、数字电路、超大规模集成电路（VLSI）设计等硬件基础知识。",
+            "技能转型：学习和掌握深度学习框架（如TensorFlow, PyTorch），并深入理解其底层硬件加速原理。学习硬件描述语言（如Verilog/VHDL）和相关的EDA工具。",
+            "职业路径调整：考虑从与硬件更相关的岗位起步，例如嵌入式系统开发、驱动开发或芯片验证等，逐步积累经验，再向芯片架构方向转型。目前的职业路径与目标岗位差距过大，需要根本性的调整。"
+          ]
+        },
+        "time_taken": 17.797210216522217,
+        "is_reasonable": true
+      },
+      {
+        "jd_id": 3,
+        "resume_id": 4,
+        "jd_title": "AI芯片架构师",
+        "resume_name": "钱七",
+        "match_data": {
+          "match_score": {
+            "overall": 10,
+            "skill_match": 10,
+            "experience_match": 5,
+            "education_match": 20
+          },
+          "strengths": [
+            "精通PyTorch深度学习框架，满足JD中“精通至少一种深度学习框架”的要求。",
+            "具备AI模型性能优化的经验，虽然是软件算法层面，但与职位要求的性能优化方向有概念上的关联。",
+            "熟悉大模型（LLM）、Transformer等，对职位描述中“支持多种AI模型”有上层应用的理解。"
+          ],
+          "weaknesses": [
+            "教育背景严重不符：简历为人工智能方向硕士，而职位要求为微电子、计算机体系结构等相关专业的博士学历。",
+            "工作经验年限差距巨大：简历显示约1-2年算法研究经验，远未达到职位要求的“10年以上AI芯片设计经验”。",
+            "核心经验领域完全不匹配：简历经验集中在NLP、CV等AI算法应用层，而职位要求的是AI芯片设计、芯片架构、微架构等硬件底层领域，两者属于不同专业方向。",
+            "关键技能缺失：简历中完全没有体现JD所要求的AI芯片架构设计、NPU指令集、微架构、计算机体系结构等核心硬件技能。"
+          ],
+          "suggestions": [
+            "由于候选人背景与该职位存在根本性的职业方向和经验层级的错位，建议投递更匹配的AI算法工程师、NLP研究员等软件开发或研究类岗位。",
+            "若候选人未来立志转向AI芯片架构方向，需要进行长期职业规划，例如攻读计算机体系结构相关方向的博士学位，并从初级岗位开始积累硬件设计和架构经验。",
+            "针对当前简历，无法通过简单修改来提升与此硬件架构职位的匹配度。这是一个职业路径的根本性不匹配，而非简历呈现问题。"
+          ]
+        },
+        "time_taken": 21.005659103393555,
+        "is_reasonable": true
+      },
+      {
+        "jd_id": 3,
+        "resume_id": 5,
+        "jd_title": "AI芯片架构师",
+        "resume_name": "孙八",
+        "match_data": {
+          "match_score": {
+            "overall": 0,
+            "skill_match": 0,
+            "experience_match": 0,
+            "education_match": 0
+          },
+          "strengths": [
+            "未发现与职位要求直接匹配的优势点。"
+          ],
+          "weaknesses": [
+            "教育背景完全不符：职位要求为微电子、计算机体系结构等相关专业博士学历，而候选人为信息管理与信息系统学士。",
+            "工作经验完全不符：职位要求10年以上AI芯片设计经验，而候选人仅有约3年互联网产品经理经验，领域和年限均不匹配。",
+            "技能栈完全不符：职位要求AI芯片架构、NPU、微架构、深度学习框架等硬核技术能力，而候选人技能均为产品经理相关技能（如Axure, PRD, 用户访谈等），无一匹配。",
+            "职业领域完全不符：该职位为半导体/硬件研发岗，而候选人的职业背景为消费互联网产品岗，两者之间存在巨大鸿沟。"
+          ],
+          "suggestions": [
+            "该职位与您的背景完全不匹配，建议不要投递，以免浪费双方时间。",
+            "建议您寻找与您经验和技能相符的岗位，例如互联网公司的产品经理、产品运营等。",
+            "如果未来希望转向AI芯片领域，需要进行根本性的职业转型，包括攻读相关专业的博士学位，并从初级岗位开始积累至少十年的行业经验，这不是通过修改简历可以实现的。"
+          ]
+        },
+        "time_taken": 15.883651971817017,
+        "is_reasonable": true
+      },
+      {
+        "jd_id": 3,
+        "resume_id": 6,
+        "jd_title": "AI芯片架构师",
+        "resume_name": "周九",
+        "match_data": {
+          "match_score": {
+            "overall": 5,
+            "skill_match": 0,
+            "experience_match": 0,
+            "education_match": 30
+          },
+          "strengths": [
+            "拥有计算机科学与软件工程的硕士和学士学位，具备扎实的计算机理论基础。",
+            "具备C++和高性能服务器开发经验，对性能优化有一定概念，尽管领域不同。"
+          ],
+          "weaknesses": [
+            "教育背景不符：职位要求博士学历，候选人为硕士学历。",
+            "专业方向不符：职位要求微电子、计算机体系结构等专业，候选人专业为软件工程和计算机科学，偏向软件应用层。",
+            "经验年限严重不足：职位要求10年以上经验，候选人工作经验仅约2年，且包含实习经历，非常初级。",
+            "经验领域完全不匹配：职位要求AI芯片设计经验，候选人经验为游戏服务器后端开发，两者技术栈和工作内容差异巨大。",
+            "核心技能缺失：简历中未体现任何与AI芯片架构、NPU、微架构、深度学习框架相关的技能或项目经验。"
+          ],
+          "suggestions": [
+            "职业方向建议：当前简历与该职位匹配度极低，建议候选人专注于游戏开发或高性能后端服务器等更匹配的岗位。",
+            "长期转型建议（若有志于AI芯片领域）：",
+            "学历提升：考虑攻读计算机体系结构或相关方向的博士学位，以满足该领域高端职位的基本门槛。",
+            "知识体系重构：系统学习计算机体系结构、数字电路、微电子学等硬件基础知识。",
+            "技能补充：深入学习至少一种深度学习框架（如TensorFlow, PyTorch）的底层原理，并学习Verilog/SystemVerilog等硬件描述语言。",
+            "实践经验积累：尝试参与开源的AI硬件加速器项目，或在FPGA上实现简单的神经网络处理器，从实践中积累与AI芯片设计相关的经验。"
+          ]
+        },
+        "time_taken": 24.570355892181396,
+        "is_reasonable": true
+      },
+      {
+        "jd_id": 3,
+        "resume_id": 7,
+        "jd_title": "AI芯片架构师",
+        "resume_name": "吴十",
+        "match_data": {
+          "match_score": {
+            "overall": 1,
+            "skill_match": 0,
+            "experience_match": 0,
+            "education_match": 0
+          },
+          "strengths": [
+            "简历中未体现出任何与该AI芯片架构师职位要求相匹配的优势点。"
+          ],
+          "weaknesses": [
+            "教育背景完全不符：职位要求微电子、计算机体系结构等相关专业博士学历，而候选人是经济学学士，专业和学历层次均不匹配。",
+            "工作经验完全不符：职位要求10年以上AI芯片设计经验，而候选人仅有约3年电商行业的产品管理经验，行业、岗位、年限均存在巨大差距。",
+            "核心技能完全缺失：候选人具备的是市场调研、商业分析、产品管理等技能，与职位要求的AI芯片架构设计、NPU、微架构、深度学习框架等硬核技术技能毫无关联。",
+            "职业方向不匹配：候选人的职业发展路径是互联网产品经理，而职位是半导体行业的硬件架构师，两者属于完全不同的专业领域。"
+          ],
+          "suggestions": [
+            "鉴于候选人背景与职位要求存在根本性差异，建议不要申请该职位。",
+            "建议候选人专注于其当前职业领域，寻找符合其产品管理、商业分析技能和电商行业背景的职位。",
+            "如果候选人未来希望转向AI芯片设计领域，需要进行长期的、根本性的职业规划调整，包括重新接受高等教育（如攻读相关专业博士学位）并从初级岗位开始积累至少十年的行业经验，这并非一个短期可行的建议。"
+          ]
+        },
+        "time_taken": 20.72881531715393,
+        "is_reasonable": true
+      },
+      {
+        "jd_id": 3,
+        "resume_id": 8,
+        "jd_title": "AI芯片架构师",
+        "resume_name": "郑十一",
+        "match_data": {
+          "match_score": {
+            "overall": 15,
+            "skill_match": 20,
+            "experience_match": 10,
+            "education_match": 40
+          },
+          "strengths": [
+            "精通职位要求的深度学习框架（PyTorch, TensorFlow），对上层AI模型的运行有深入理解。",
+            "拥有顶级科技公司（特斯拉、Google Brain）和顶尖名校（卡内基梅隆、斯坦福）的背景，证明了候选人具备优秀的个人素质和学习能力。",
+            "在AI应用领域（自动驾驶、强化学习）有丰富的项目经验，有助于从应用角度理解芯片性能需求。"
+          ],
+          "weaknesses": [
+            "核心领域不匹配：候选人的经验和技能集中在AI算法与软件应用层，而职位要求的是底层的AI芯片硬件架构设计，两者领域差异巨大。",
+            "核心技能缺失：简历未体现任何与“AI芯片架构设计”、“NPU指令集”、“微架构”、“计算机体系结构”等关键硬件技能相关的经验。",
+            "工作年限严重不足：候选人工作经验约4年，远低于职位要求的“10年以上AI芯片设计经验”。",
+            "学历背景不符：职位要求为“微电子、计算机体系结构等相关专业博士学历”，候选人为“人工智能硕士”，在学历等级和专业方向上均有差距。"
+          ],
+          "suggestions": [
+            "由于专业背景和工作经验与职位要求存在根本性差异，建议候选人申请更匹配自身背景的AI算法工程师、机器学习研究员或自动驾驶工程师等职位，在这些岗位上候选人将极具竞争力。",
+            "若候选人未来有志于转向芯片架构领域，需要系统地补充计算机体系结构、数字逻辑设计、VLSI等硬件相关知识，并考虑攻读相关方向的博士学位。",
+            "针对当前简历，几乎无法通过修改来匹配此职位，因为核心经验和知识体系是缺失的。任何修改都难以弥补这一根本性差距。"
+          ]
+        },
+        "time_taken": 26.82402801513672,
+        "is_reasonable": true
+      },
+      {
+        "jd_id": 3,
+        "resume_id": 9,
+        "jd_title": "AI芯片架构师",
+        "resume_name": "冯十二",
+        "match_data": {
+          "match_score": {
+            "overall": 0,
+            "skill_match": 0,
+            "experience_match": 0,
+            "education_match": 0
+          },
+          "strengths": [
+            "该简历与职位要求完全不匹配，无任何优势点。"
+          ],
+          "weaknesses": [
+            "教育背景完全不符：职位要求为微电子、计算机体系结构等相关专业的博士学历，而候选人是市场营销专业的学士学位。",
+            "工作经验完全不符：职位要求10年以上AI芯片设计经验，而候选人的经验集中在产品运营和市场营销领域，领域和年限均不匹配。",
+            "技能栈完全不匹配：职位所需的AI芯片架构、NPU、深度学习框架等专业技术技能，候选人完全不具备，其技能均为市场和运营方向。",
+            "职业领域完全不同：候选人是互联网运营/市场专家，而目标职位是硬件研发领域的顶尖技术专家，两者之间不存在任何交集。"
+          ],
+          "suggestions": [
+            "该职位与候选人的职业背景和发展路径完全不符，建议不要投递此类职位。",
+            "建议候选人专注于与自己背景相符的市场营销、产品运营、品牌管理等领域的职位，以发挥其专业优势。",
+            "如果候选人未来希望转向技术领域，需要进行彻底的职业转型，包括重新接受高等教育（例如攻读计算机或电子工程的硕士/博士学位），并从入门级技术岗位开始积累长达数年的相关经验。"
+          ]
+        },
+        "time_taken": 18.498066186904907,
+        "is_reasonable": true
+      },
+      {
+        "jd_id": 4,
+        "resume_id": 0,
+        "jd_title": "高级CV算法工程师 - 自动驾驶",
+        "resume_name": "张三",
+        "match_data": {
+          "match_score": {
+            "overall": 35,
+            "skill_match": 40,
+            "experience_match": 20,
+            "education_match": 100
+          },
+          "strengths": [
+            "教育背景优秀：清华大学计算机科学硕士，与职位要求的硕士学历和计算机相关专业高度匹配。",
+            "掌握核心框架：简历中明确列出掌握PyTorch，这是职位要求的核心深度学习框架之一。",
+            "具备顶级公司背景：拥有在字节跳动、百度等一线互联网公司担任高级AI工程师的经历，证明了其具备扎实的机器学习理论基础和工程实践能力。"
+          ],
+          "weaknesses": [
+            "经验领域严重不符：候选人的工作经验完全集中在推荐系统和自然语言处理（NLP）领域，与职位要求的计算机视觉（CV）方向存在根本性差异。",
+            "核心技能缺失：简历未提及职位要求的核心CV技能，如目标检测、跟踪、语义分割，以及关键的视觉库OpenCV。",
+            "缺乏相关行业背景：无自动驾驶或机器人领域的任何经验，而这是该职位的优先考虑项。",
+            "相关经验年限不足：职位要求“4年以上CV算法经验”，而候选人在此领域的经验为零。"
+          ],
+          "suggestions": [
+            "突出与CV相关的任何经历：如果在硕士期间有任何与计算机视觉相关的课程项目或研究，应在简历中详细阐述，以弥补工作经验的不足。",
+            "技能列表具体化：若具备相关能力，应将笼统的“CV”技能替换为“目标检测”、“语义分割”等具体技术关键词，并添加“OpenCV”等库。",
+            "增加CV项目实践：建议通过个人项目（如使用KITTI、COCO数据集进行目标检测、分割任务）来积累CV领域的实践经验，并将项目代码和成果（如GitHub链接）展示在简历中。",
+            "在求职信中解释转型动机：若要申请此职位，强烈建议附上一封求职信，说明自己希望从NLP/推荐系统转向CV/自动驾驶领域的强烈意愿和原因，并强调自己在模型优化、大规模数据处理等方面的可迁移能力。"
+          ]
+        },
+        "time_taken": 23.960763216018677,
+        "is_reasonable": true
+      },
+      {
+        "jd_id": 4,
+        "resume_id": 1,
+        "jd_title": "高级CV算法工程师 - 自动驾驶",
+        "resume_name": "李四",
+        "match_data": {
+          "match_score": {
+            "overall": 5,
+            "skill_match": 0,
+            "experience_match": 5,
+            "education_match": 30
+          },
+          "strengths": [
+            "毕业于国内知名高校（浙江大学），拥有扎实的软件工程基础。",
+            "在顶级互联网公司（阿里巴巴）有工作经验，证明了其具备在严苛环境下工作的能力和潜力。"
+          ],
+          "weaknesses": [
+            "技能完全不匹配：简历技能栈为Java后端开发（Java, Spring Boot, MySQL等），而职位要求为计算机视觉算法（PyTorch, OpenCV, 目标检测等），两者之间没有重合。",
+            "经验领域完全不符：工作经验为电商平台后端开发，与职位要求的自动驾驶感知算法研发毫无关联。",
+            "经验年限不足：职位要求4年以上CV算法经验，而简历仅有2年左右的后端开发经验。",
+            "教育背景不符：职位要求计算机视觉相关领域硕士，而简历为软件工程学士。"
+          ],
+          "suggestions": [
+            "鉴于候选人背景与职位要求存在根本性差异，此简历不适合该职位。建议候选人投递与其技能和经验高度匹配的Java后端开发岗位。",
+            "如果候选人希望转行至CV算法领域，这是一个长期过程。建议：1.攻读计算机视觉方向的硕士学位以满足基本门槛；2.系统性地学习计算机视觉、深度学习理论和PyTorch等框架；3.通过实践个人项目（如目标检测、图像分割）来积累实际经验，并将其体现在简历中。"
+          ]
+        },
+        "time_taken": 24.275113105773926,
+        "is_reasonable": true
+      },
+      {
+        "jd_id": 4,
+        "resume_id": 2,
+        "jd_title": "高级CV算法工程师 - 自动驾驶",
+        "resume_name": "王五",
+        "match_data": {
+          "match_score": {
+            "overall": 10,
+            "skill_match": 5,
+            "experience_match": 0,
+            "education_match": 95
+          },
+          "strengths": [
+            "教育背景优秀：候选人拥有上海交通大学的电子工程硕士学位，毕业院校和学历层次与职位要求高度匹配。"
+          ],
+          "weaknesses": [
+            "技能完全不匹配：简历中的技能（如产品规划、市场分析、用户研究、Axure）均为产品经理方向，未提及任何职位要求的核心技能，如计算机视觉、目标检测、跟踪、语义分割、OpenCV、PyTorch。",
+            "工作经验完全不符：候选人的工作经验为产品经理和产品实习生，与职位要求的“高级CV算法工程师”角色和“自动驾驶感知模块的视觉算法研发”职责完全不相关。",
+            "经验年限不足且领域错误：职位要求4年以上CV算法经验，候选人不仅没有CV算法经验，其总工作年限也可能不满足要求。",
+            "缺乏相关行业背景：简历中没有任何关于自动驾驶或机器人领域的项目或工作经验。"
+          ],
+          "suggestions": [
+            "明确职业方向：该简历与该职位的匹配度极低，几乎不存在拿到面试的可能性。建议候选人明确自己的职业发展方向。如果坚持投递该岗位，则需要对职业生涯进行重大调整。",
+            "重新学习核心技能：若想转向CV算法方向，需要从零开始系统学习计算机视觉、深度学习理论，并熟练掌握PyTorch、OpenCV等核心框架和工具。",
+            "积累相关项目经验：通过个人项目、在线课程项目或参与开源项目等方式，积累与目标检测、跟踪、分割等相关的实践经验，并将其量化地体现在简历中。",
+            "调整求职目标：基于当前的简历内容，建议候选人专注于申请产品经理相关的职位，这样成功率会高得多。"
+          ]
+        },
+        "time_taken": 21.83385396003723,
+        "is_reasonable": true
+      },
+      {
+        "jd_id": 4,
+        "resume_id": 3,
+        "jd_title": "高级CV算法工程师 - 自动驾驶",
+        "resume_name": "赵六",
+        "error": "litellm.APIConnectionError: Vertex_aiException - Server disconnected without sending a response.",
+        "time_taken": 82.89857196807861,
+        "is_reasonable": false
+      },
+      {
+        "jd_id": 4,
+        "resume_id": 4,
+        "jd_title": "高级CV算法工程师 - 自动驾驶",
+        "resume_name": "钱七",
+        "error": "litellm.APIConnectionError: Vertex_aiException - [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)",
+        "time_taken": 5.038649797439575,
+        "is_reasonable": false
+      },
+      {
+        "jd_id": 4,
+        "resume_id": 5,
+        "jd_title": "高级CV算法工程师 - 自动驾驶",
+        "resume_name": "孙八",
+        "error": "litellm.APIConnectionError: Vertex_aiException - [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)",
+        "time_taken": 5.039139747619629,
+        "is_reasonable": false
+      },
+      {
+        "jd_id": 4,
+        "resume_id": 6,
+        "jd_title": "高级CV算法工程师 - 自动驾驶",
+        "resume_name": "周九",
+        "match_data": {
+          "match_score": {
+            "overall": 10,
+            "skill_match": 5,
+            "experience_match": 0,
+            "education_match": 85
+          },
+          "strengths": [
+            "教育背景优秀：拥有华中科技大学软件工程硕士学位，满足职位对硕士学历的基本要求。",
+            "具备扎实的C++和高性能服务器开发经验，编程基础良好。"
+          ],
+          "weaknesses": [
+            "技能完全不符：简历中展示的技能栈（游戏服务器后端开发）与职位要求的计算机视觉（目标检测、跟踪、PyTorch、OpenCV）核心技能完全没有交集。",
+            "经验领域严重不匹配：所有工作和项目经验都集中在游戏后端开发，完全没有职位所要求的自动驾驶、机器人或任何计算机视觉算法研发经验。",
+            "经验年限不符：职位要求4年以上CV算法经验，而候选人不仅没有相关领域的经验，其总工作年限也可能不满足要求。"
+          ],
+          "suggestions": [
+            "由于专业领域和经验完全不匹配，该职位与候选人当前的职业路径相差甚远，不建议投递。",
+            "如果候选人希望转向计算机视觉领域，建议先系统性地学习相关知识，如深度学习、PyTorch框架、OpenCV库等。",
+            "可以从构建个人项目开始，例如实现一些基础的目标检测或图像分割项目，并将这些项目添加到简历中，以展示对新领域的学习能力和热情。",
+            "应关注和投递入门级或实习类的计算机视觉算法岗位，而非要求4年经验的高级岗位，以完成职业转型。"
+          ]
+        },
+        "time_taken": 24.664307117462158,
+        "is_reasonable": true
+      },
+      {
+        "jd_id": 4,
+        "resume_id": 7,
+        "jd_title": "高级CV算法工程师 - 自动驾驶",
+        "resume_name": "吴十",
+        "match_data": {
+          "match_score": {
+            "overall": 5,
+            "skill_match": 0,
+            "experience_match": 0,
+            "education_match": 0
+          },
+          "strengths": [
+            "候选人具备在大型互联网公司（拼多多、京东）的工作经验，这通常意味着对快节奏、数据驱动的工作环境有一定了解。",
+            "具备数据分析和项目管理经验，但与本职位所需的技术栈和领域关联度极低。"
+          ],
+          "weaknesses": [
+            "教育背景完全不匹配：职位要求计算机视觉或相关领域硕士，候选人为经济学学士。",
+            "技能完全不匹配：职位要求的计算机视觉、目标检测、PyTorch、OpenCV等核心技能，候选人均未提及。候选人技能集中在产品和商业分析领域。",
+            "工作经验完全不匹配：职位要求4年以上CV算法研发经验，候选人为产品经理经验，领域为电商，与自动驾驶算法研发无关。",
+            "工作年限不符：候选人工作经验不足4年。",
+            "行业领域不匹配：候选人深耕电商领域，对职位所处的自动驾驶行业缺乏了解和经验。"
+          ],
+          "suggestions": [
+            "职位与候选人背景差异巨大，不建议投递。建议候选人寻找与其产品经理、商业/数据分析背景相符的岗位。",
+            "如果候选人有强烈的意愿转行至CV算法工程师，需要进行系统性的职业转型规划。建议首先攻读计算机科学或相关专业的硕士学位，并主攻计算机视觉方向。",
+            "在学习期间或业余时间，通过在线课程（如Coursera, Udacity）、个人项目和开源社区（如GitHub, Kaggle）来系统学习Python、PyTorch、OpenCV等核心技术，并积累实际项目经验。",
+            "可以考虑从入门级算法岗位或实习生开始，逐步积累行业所需的专业经验。"
+          ]
+        },
+        "time_taken": 21.753580808639526,
+        "is_reasonable": true
+      },
+      {
+        "jd_id": 4,
+        "resume_id": 8,
+        "jd_title": "高级CV算法工程师 - 自动驾驶",
+        "resume_name": "郑十一",
+        "match_data": {
+          "match_score": {
+            "overall": 88,
+            "skill_match": 80,
+            "experience_match": 85,
+            "education_match": 100
+          },
+          "strengths": [
+            "教育背景极强：卡内基梅隆大学人工智能硕士，远超职位要求的“计算机视觉或相关领域硕士”。",
+            "工作经验高度相关：拥有在特斯拉从事自动驾驶研发的经验，特别是“优化车辆感知”部分，与职位要求高度契合。",
+            "工作年限满足要求：从2020年至今约4年的工作经验，符合“4年以上”的要求。",
+            "技术栈匹配：熟练使用PyTorch，这是JD明确要求的技能。",
+            "行业背景优秀：拥有自动驾驶（特斯拉）和机器人（Google Brain）领域的顶级公司经验，是JD中的优先考虑项。"
+          ],
+          "weaknesses": [
+            "核心技能未明确体现：简历中未明确列出JD要求的核心技能，如“目标检测”、“跟踪”、“语义分割”和“OpenCV”。",
+            "经验描述重点有偏差：简历中的工作和项目经验描述更侧重于“决策与控制”、“强化学习”和“路径规划”，而JD的核心是“感知”算法。",
+            "感知经验细节不足：尽管在特斯拉的工作提到“优化车辆感知”，但没有具体说明使用了哪些技术（如检测、分割等）以及取得了什么成果，无法充分证明其在感知领域的深度。"
+          ],
+          "suggestions": [
+            "在技能列表中补充关键词：如果具备相关经验，应在技能部分明确加入“计算机视觉”、“目标检测”、“跟踪”、“语义分割”、“OpenCV”等关键词。",
+            "量化并突出感知经验：在特斯拉的工作经验描述中，应详细阐述“优化车辆感知”的具体工作。例如：“主导开发了基于XXX模型的3D目标检测算法，将mAP提升了Y%”，或“负责多目标跟踪模块，使用卡尔曼滤波和深度特征将ID switch降低了Z%”。",
+            "调整项目描述：在项目经验部分，如果“端到端自动驾驶系统”项目包含感知部分，应加以突出，说明感知模块的实现细节和作用。",
+            "增加个人简介：在简历开头增加一段“个人总结”，开宗明义地强调自己对自动驾驶感知算法的兴趣和相关经验，主动引导面试官关注自己与职位的匹配点。"
+          ]
+        },
+        "time_taken": 27.80186915397644,
+        "is_reasonable": true
+      },
+      {
+        "jd_id": 4,
+        "resume_id": 9,
+        "jd_title": "高级CV算法工程师 - 自动驾驶",
+        "resume_name": "冯十二",
+        "match_data": {
+          "match_score": {
+            "overall": 0,
+            "skill_match": 0,
+            "experience_match": 0,
+            "education_match": 0
+          },
+          "strengths": [
+            "简历与职位要求在任何方面均不匹配。"
+          ],
+          "weaknesses": [
+            "教育背景不符：职位要求计算机视觉或相关领域硕士，候选人为市场营销学士。",
+            "技能完全不匹配：职位要求计算机视觉、目标检测、PyTorch等专业技术技能，候选人具备的是市场策划、品牌管理等市场运营类技能。",
+            "工作经验不符：职位要求4年以上CV算法经验，候选人经验为产品运营和市场推广，领域完全不同。",
+            "行业经验缺失：职位要求自动驾驶或机器人相关经验，候选人经验在互联网社区和美妆行业，无任何关联。"
+          ],
+          "suggestions": [
+            "该简历与职位需求差距巨大，属于无效匹配。不建议候选人投递此类职位。",
+            "若候选人希望转向计算机视觉算法工程师方向，需要进行根本性的职业转型，包括：",
+            "1. 重新接受教育：攻读计算机科学或相关专业的硕士学位，系统学习计算机视觉、机器学习等理论知识。",
+            "2. 学习核心技能：通过课程、项目等方式，从零开始学习Python编程、PyTorch/TensorFlow深度学习框架、OpenCV等。",
+            "3. 积累项目经验：完成多个计算机视觉相关的个人项目（如目标检测、图像分割等），以建立技术作品集。"
+          ]
+        },
+        "time_taken": 12.563369989395142,
+        "is_reasonable": true
+      }
+    ]
+  },
+  "timestamp": 1781235909.1675851
+}

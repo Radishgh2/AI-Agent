@@ -1,0 +1,60 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+*.egg-info/
+.pytest_cache/
+
+# Distributions and packaging
+.Python
+build/
+dist/
+develop-eggs/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg
+.env/
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Project-specific files
+*.log
+*.pot
+*.mo
+.htpasswd
+.env
+
+# Jupyter Notebook / IPython
+.ipynb_checkpoints
+.jupyter/
+jupyter_notebook_config.json
+
+# VSCode
+.vscode/
+
+# IDE-specific files
+.idea/
+*.swp
+*.bak
+*.swo
+
+# macOS
+.DS_Store
+
+# Virtual environments
+venv/
+.venv/
+
+# Streamlit
+.streamlit/
